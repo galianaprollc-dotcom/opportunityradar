@@ -7,58 +7,46 @@ from datetime import datetime, timedelta
 API_KEY = os.environ.get("SAM_API_KEY")
 URL = "https://api.sam.gov/opportunities/v2/search"
 
+# Keep the request small and inside the required date window
 today = datetime.utcnow()
 posted_to = today.strftime("%m/%d/%Y")
 posted_from = (today - timedelta(days=30)).strftime("%m/%d/%Y")
 
-NAICS_FILTER = {
-    "236220",  # Commercial building construction
-    "237310",  # Highway / street / site
-    "238220",  # Plumbing / HVAC
-    "238320",  # Painting / wall covering
-    "238330",  # Flooring
-    "238350",  # Finish carpentry
-    "238910",  # Site prep
-    "238990",  # Specialty trade
-    "562910"   # Environmental remediation
-}
-
-EXCLUDE_WORDS = [
-    "ship",
-    "voyage",
-    "vessel",
-    "antenna",
-    "spectrum",
-    "electromagnetic",
-    "analyzer",
-    "pathology",
-    "medical",
-    "vehicle",
-    "truck",
-    "wrecker",
-    "actuator",
-    "parts",
-    "aircraft",
-    "missile",
-    "weapon",
-    "cyber",
-    "software",
-    "telecom",
-    "communications",
-    "radar",
-    "naval",
-    "marine"
-]
-
-PRIORITY_STATES = {"FL", "GA", "Florida", "Georgia"}
-
 params = {
     "api_key": API_KEY,
-    "limit": 100,
-    "ptype": "o",
+    "ptype": "o",          # solicitation
     "postedFrom": posted_from,
-    "postedTo": posted_to
+    "postedTo": posted_to,
+    "limit": 25,
+    "offset": 0
 }
+
+def safe_amount(item):
+    award = item.get("award")
+    if isinstance(award, dict):
+        amt = award.get("amount")
+        if amt not in [None, "", {}]:
+            return amt
+    return None
+
+def safe_due_date(item):
+    # SAM docs show this field as reponseDeadLine in the response docs,
+    # but keep a fallback in case the payload varies.
+    return (
+        item.get("reponseDeadLine")
+        or item.get("responseDeadLine")
+        or item.get("archiveDate")
+        or "Unknown"
+    )
+
+def safe_agency(item):
+    return (
+        item.get("fullParentPathName")
+        or item.get("organizationName")
+        or item.get("department")
+        or item.get("subtier")
+        or "Unknown"
+    )
 
 response = None
 
@@ -69,50 +57,39 @@ for attempt in range(5):
         break
 
     if response.status_code == 429:
-        print("SAM rate limit hit. Waiting 15 seconds...")
-        time.sleep(15)
+        print(f"SAM rate limit hit on attempt {attempt + 1}. Waiting 20 seconds...")
+        time.sleep(20)
         continue
 
     print("SAM returned error:", response.status_code)
+    print(response.text[:500])
     raise Exception("SAM request failed")
 
 if response is None or response.status_code != 200:
     raise Exception("SAM request failed after retries")
 
 data = response.json()
+
+# Save raw response too, so we can inspect exactly what SAM is returning
+with open("sam_raw.json", "w") as raw_file:
+    json.dump(data, raw_file, indent=2)
+
 results = []
 
 for item in data.get("opportunitiesData", []):
-    title = item.get("title", "")
-    title_lower = title.lower()
-
-    naics = str(item.get("naicsCode", "")).strip()
-    state = item.get("placeOfPerformanceState", "Unknown")
-
-    if naics not in NAICS_FILTER:
-        continue
-
-    if any(word in title_lower for word in EXCLUDE_WORDS):
-        continue
-
-    score = 10
-    if state in PRIORITY_STATES:
-        score += 5
-
-    value = item.get("award")
-    if isinstance(value, dict):
-        value = value.get("amount")
-
     results.append({
-        "title": title,
+        "title": item.get("title", "Unknown"),
         "solicitation": item.get("solicitationNumber", "N/A"),
-        "state": state,
-        "naics": naics if naics else "Unknown",
-        "value": value if value else "Not listed",
-        "score": score
+        "agency": safe_agency(item),
+        "posted_date": item.get("postedDate", "Unknown"),
+        "due_date": safe_due_date(item),
+        "naics": item.get("naicsCode", "Unknown"),
+        "set_aside": item.get("setAside", "Not listed"),
+        "value": safe_amount(item),
+        "score": 0
     })
 
 with open("opportunities.json", "w") as f:
-    json.dump(results[:50], f, indent=2)
+    json.dump(results, f, indent=2)
 
-print("Updated filtered opportunities:", len(results[:50]))
+print("Updated opportunities:", len(results))
