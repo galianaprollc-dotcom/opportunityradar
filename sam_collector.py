@@ -11,9 +11,8 @@ today = datetime.utcnow()
 posted_to = today.strftime("%m/%d/%Y")
 posted_from = (today - timedelta(days=30)).strftime("%m/%d/%Y")
 
-KEYWORDS = [
+INCLUDE_WORDS = [
     "construction",
-    "repair",
     "renovation",
     "remediation",
     "environmental",
@@ -28,21 +27,33 @@ KEYWORDS = [
     "cleanup",
     "disaster",
     "restoration",
-    "mold"
+    "mold",
+    "repair"
+]
+
+EXCLUDE_WORDS = [
+    "antenna",
+    "spectrum",
+    "electromagnetic",
+    "engineering analysis",
+    "truck",
+    "vehicle",
+    "wrecker",
+    "actuator",
+    "parts",
+    "weapon",
+    "missile",
+    "aircraft",
+    "radar",
+    "software",
+    "cyber",
+    "it support",
+    "telecom",
+    "communications",
+    "medical equipment"
 ]
 
 PRIORITY_STATES = ["FL", "GA", "Florida", "Georgia"]
-
-NAICS_CODES = [
-    "236220",
-    "237310",
-    "238220",
-    "238320",
-    "238330",
-    "238350",
-    "238910",
-    "562910"
-]
 
 params = {
     "api_key": API_KEY,
@@ -63,38 +74,29 @@ for item in data.get("opportunitiesData", []):
     title = item.get("title", "")
     title_lower = title.lower()
 
-    if not any(word in title_lower for word in KEYWORDS):
+    if not any(word in title_lower for word in INCLUDE_WORDS):
         continue
 
-    naics = str(item.get("ncode", "Unknown"))
-    if naics not in NAICS_CODES:
+    if any(word in title_lower for word in EXCLUDE_WORDS):
         continue
 
     state = item.get("state", "Unknown")
-
-    value = item.get("award", 0)
-    try:
-        value = float(value)
-    except:
-        value = 0
-
-    if value < 100000:
-        continue
+    naics = item.get("ncode", "Unknown")
 
     score = 0
 
-    if state in PRIORITY_STATES:
+    if any(word in title_lower for word in INCLUDE_WORDS):
         score += 10
 
-    if naics in NAICS_CODES:
-        score += 10
+    if state in PRIORITY_STATES:
+        score += 5
 
     results.append({
         "title": title,
         "solicitation": item.get("solicitationNumber", "N/A"),
         "state": state,
         "naics": naics,
-        "value": value,
+        "value": item.get("award", "Not listed"),
         "score": score
     })
 
@@ -103,4 +105,4 @@ results.sort(key=lambda x: x["score"], reverse=True)
 with open("opportunities.json", "w") as f:
     json.dump(results[:50], f, indent=2)
 
-print("Updated opportunities:", len(results[:50]))
+print("Updated filtered opportunities:", len(results[:50]))
