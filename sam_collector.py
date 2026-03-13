@@ -27,7 +27,23 @@ data = response.json()
 
 results = []
 
+NAICS_FILTER = [
+"236220",
+"237310",
+"238220",
+"238320",
+"238350",
+"238990",
+"562910"
+]
+
 for item in data.get("opportunitiesData", []):
+
+    title = item.get("title","")
+    naics = str(item.get("naicsCode",""))
+
+    if naics not in NAICS_FILTER:
+        continue
 
     title = item.get("title","")
     title_lower = title.lower()
