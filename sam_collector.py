@@ -1,32 +1,45 @@
 import os
-import requests
 import json
+import requests
+from datetime import datetime, timedelta
 
 API_KEY = os.environ.get("SAM_API_KEY")
 
-url = "https://api.sam.gov/prod/opportunities/v2/search"
+url = "https://api.sam.gov/opportunities/v2/search"
+
+today = datetime.utcnow()
+posted_to = today.strftime("%m/%d/%Y")
+posted_from = (today - timedelta(days=30)).strftime("%m/%d/%Y")
 
 params = {
     "api_key": API_KEY,
-    "limit": 10
+    "postedFrom": posted_from,
+    "postedTo": posted_to,
+    "ptype": "o",
+    "limit": 20,
+    "offset": 0
 }
 
-response = requests.get(url, params=params)
+response = requests.get(url, params=params, timeout=60)
+
+print("STATUS:", response.status_code)
+print("TEXT:", response.text[:500])
+
+response.raise_for_status()
 
 data = response.json()
 
 opportunities = []
 
-if "opportunitiesData" in data:
-    for item in data["opportunitiesData"]:
-        opportunities.append({
-            "title": item.get("title", "Unknown Opportunity"),
-            "solicitation": item.get("solicitationNumber", "N/A"),
-            "state": item.get("placeOfPerformance", {}).get("state", "Unknown"),
-            "naics": item.get("naicsCode", "Unknown")
-        })
+for item in data.get("opportunitiesData", []):
+    opportunities.append({
+        "title": item.get("title", "Unknown Opportunity"),
+        "solicitation": item.get("solicitationNumber", "N/A"),
+        "state": item.get("state", "Unknown"),
+        "naics": item.get("ncode", "Unknown")
+    })
 
 with open("opportunities.json", "w") as f:
     json.dump(opportunities, f, indent=2)
 
-print("Opportunities updated.")
+print(f"Opportunities updated: {len(opportunities)}")
