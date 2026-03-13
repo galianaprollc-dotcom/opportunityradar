@@ -55,7 +55,23 @@ params = {
 
 time.sleep(5)
 
-response = requests.get(URL, params=params, timeout=60)
+for attempt in range(5):
+
+    response = requests.get(URL, params=params, timeout=60)
+
+    if response.status_code == 200:
+        break
+
+    if response.status_code == 429:
+        print("SAM rate limit hit. Waiting 15 seconds...")
+        time.sleep(15)
+        continue
+
+    print("SAM returned error:", response.status_code)
+    raise Exception("SAM request failed")
+
+if response.status_code != 200:
+    raise Exception("SAM request failed after retries")
 
 if response.status_code != 200:
     print("SAM returned error:", response.status_code)
