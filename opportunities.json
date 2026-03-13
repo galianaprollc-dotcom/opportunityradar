@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Environmental Remediation Services",
+    "solicitation": "SAM-TEST-001",
+    "state": "FL",
+    "naics": "562910"
+  },
+  {
+    "title": "Facility Repair and Renovation",
+    "solicitation": "SAM-TEST-002",
+    "state": "GA",
+    "naics": "236220"
+  },
+  {
+    "title": "Disaster Recovery Cleanup",
+    "solicitation": "SAM-TEST-003",
+    "state": "TX",
+    "naics": "237990"
+  }
+]
