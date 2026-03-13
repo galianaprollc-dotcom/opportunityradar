@@ -1,65 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <title>OpportunityRadar</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-
 body{
-background:#0f172a;
-color:#e5e7eb;
-font-family:Arial;
-margin:0;
-}
-
-header{
-background:#111827;
-padding:25px;
-border-bottom:1px solid #334155;
-}
-
-h1{
-margin:0;
-font-size:28px;
+    font-family: Arial;
+    background:#0f172a;
+    color:white;
+    margin:0;
 }
 
 .container{
-padding:30px;
+    width:1100px;
+    margin:auto;
+}
+
+.header{
+    padding:30px 0;
 }
 
 .card{
-background:#1e293b;
-padding:20px;
-border-radius:10px;
-margin-bottom:20px;
-border:1px solid #334155;
+    background:#1e293b;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
 }
 
-.metric{
-font-size:20px;
-font-weight:bold;
-}
-
-.tag{
-display:inline-block;
-background:#22c55e;
-color:#052e16;
-padding:5px 10px;
-border-radius:20px;
-font-size:12px;
-margin-top:10px;
-}
-
-button{
-background:#38bdf8;
-border:none;
-padding:10px 14px;
-border-radius:8px;
-margin-top:15px;
-font-weight:bold;
-cursor:pointer;
+.value{
+    color:#22c55e;
+    font-weight:bold;
 }
 
 </style>
@@ -67,52 +38,59 @@ cursor:pointer;
 
 <body>
 
-<header>
-<h1>OpportunityRadar</h1>
-<p>Private opportunity dashboard</p>
-</header>
-
 <div class="container">
 
+<div class="header">
+<h1>OpportunityRadar</h1>
+<p>Private opportunity dashboard</p>
+</div>
+
+<div id="pipeline"></div>
+
+</div>
+
+<script>
+
+async function loadOpportunities(){
+
+let response = await fetch("opportunities.json");
+let data = await response.json();
+
+let container = document.getElementById("pipeline");
+
+container.innerHTML = "";
+
+data.forEach(opportunity => {
+
+let value = opportunity.value
+? "$" + opportunity.value.toLocaleString()
+: "Not listed";
+
+let card = `
 <div class="card">
 
+<h2>${opportunity.title}</h2>
 
+<p><b>Solicitation:</b> ${opportunity.solicitation}</p>
 
-<h2>Pipeline</h2>
+<p><b>State:</b> ${opportunity.state}</p>
 
-<p>This is the starter OpportunityRadar dashboard.</p>
+<p><b>NAICS:</b> ${opportunity.naics}</p>
+
+<p class="value"><b>Estimated Value:</b> ${value}</p>
 
 </div>
+`;
 
-</div>
-<script>
-async function loadOpportunities() {
-    try {
-        const response = await fetch("opportunities.json");
-        const data = await response.json();
+container.innerHTML += card;
 
-        const container = document.querySelector(".container");
+});
 
-        data.forEach(op => {
-            const card = document.createElement("div");
-            card.className = "card";
-
-            card.innerHTML = `
-                <h2>${op.title}</h2>
-                <div class="metric">Solicitation: ${op.solicitation}</div>
-                <div class="metric">State: ${op.state}</div>
-                <div class="metric">NAICS: ${op.naics}</div>
-            `;
-
-            container.appendChild(card);
-        });
-
-    } catch (err) {
-        console.log("No opportunities yet.");
-    }
 }
 
 loadOpportunities();
+
 </script>
+
 </body>
 </html>
