@@ -1,5 +1,6 @@
 import os
 import json
+import time
 import requests
 from datetime import datetime, timedelta
 
@@ -60,7 +61,7 @@ EXCLUDE_WORDS = [
     "electromagnetic",
     "analyzer",
     "pathology",
-    "medical equipment",
+    "medical",
     "truck",
     "vehicle",
     "wrecker",
@@ -74,11 +75,11 @@ EXCLUDE_WORDS = [
     "aircraft",
     "missile",
     "weapon",
-    "radar",
-    "software",
     "cyber",
+    "software",
     "telecom",
     "communications",
+    "radar",
     "engineering analysis",
     "laboratory",
     "test equipment"
@@ -155,24 +156,32 @@ params = {
     "postedFrom": posted_from,
     "postedTo": posted_to,
     "ptype": "o",
-    "limit": 200,
+    "limit": 100,
     "offset": 0
 }
 
-response = requests.get(URL, params=params, timeout=60)
-response.raise_for_status()
-data = response.json()
+response = None
+for attempt in range(3):
+    response = requests.get(URL, params=params, timeout=60)
+    if response.status_code == 429:
+        time.sleep(15)
+        continue
+    response.raise_for_status()
+    break
 
+if response is None or response.status_code == 429:
+    raise Exception("SAM API rate limit hit after retries")
+
+data = response.json()
 results = []
 
 for item in data.get("opportunitiesData", []):
     title = pick_first(item, ["title"], "")
     title_lower = title.lower()
 
-    notice_type = pick_first(item, ["ptype", "noticeType", "type"], "Unknown")
-    solicitation = pick_first(item, ["solicitationNumber", "solicitationnumber"], "N/A")
-    state = pick_first(item, ["state", "placeOfPerformanceState", "placeofperformancestate"], "Unknown")
     naics = str(pick_first(item, ["ncode", "naicsCode", "naicscode"], "")).strip()
+    state = pick_first(item, ["state", "placeOfPerformanceState", "placeofperformancestate"], "Unknown")
+    solicitation = pick_first(item, ["solicitationNumber", "solicitationnumber"], "N/A")
 
     agency = pick_first(
         item,
@@ -193,11 +202,9 @@ for item in data.get("opportunitiesData", []):
 
     value = parse_amount(item)
 
-    # Hard floor
     if value < MIN_VALUE:
         continue
 
-    # Hard exclusions
     if any(word in title_lower for word in EXCLUDE_WORDS):
         continue
     if any(word in desc_lower for word in EXCLUDE_WORDS):
@@ -210,7 +217,6 @@ for item in data.get("opportunitiesData", []):
         continue
 
     score = 0
-
     if keyword_match:
         score += 10
     if naics_match:
@@ -220,7 +226,8 @@ for item in data.get("opportunitiesData", []):
 
     text_blob = f"{title_lower} {desc_lower} {str(set_aside).lower()}"
 
-    if any(word in text_blob for word in TRIBAL_WORDS):
+    tribal_priority = any(word in text_blob for word in TRIBAL_WORDS)
+    if tribal_priority:
         score += 15
 
     if any(word in text_blob for word in SET_ASIDE_WORDS):
@@ -237,8 +244,7 @@ for item in data.get("opportunitiesData", []):
         "posted_date": posted_date,
         "due_date": due_date,
         "set_aside": set_aside,
-        "notice_type": notice_type,
-        "tribal_priority": any(word in text_blob for word in TRIBAL_WORDS)
+        "tribal_priority": tribal_priority
     })
 
 results.sort(key=lambda x: (x["score"], x["value"]), reverse=True)
