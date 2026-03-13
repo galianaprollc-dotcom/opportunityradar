@@ -1,10 +1,15 @@
 import os
 import json
-import requests
 import time
+import requests
+from datetime import datetime, timedelta
 
 API_KEY = os.environ.get("SAM_API_KEY")
 URL = "https://api.sam.gov/opportunities/v2/search"
+
+today = datetime.utcnow()
+posted_to = today.strftime("%m/%d/%Y")
+posted_from = (today - timedelta(days=30)).strftime("%m/%d/%Y")
 
 NAICS_FILTER = {
     "236220",  # Commercial building construction
@@ -51,15 +56,13 @@ params = {
     "api_key": API_KEY,
     "limit": 100,
     "ptype": "o",
-    "postedFrom": "01/01/2024",
-    "postedTo": "12/31/2026"
-}
+    "postedFrom": posted_from,
+    "postedTo": posted_to
 }
 
-time.sleep(5)
+response = None
 
 for attempt in range(5):
-
     response = requests.get(URL, params=params, timeout=60)
 
     if response.status_code == 200:
@@ -73,12 +76,8 @@ for attempt in range(5):
     print("SAM returned error:", response.status_code)
     raise Exception("SAM request failed")
 
-if response.status_code != 200:
+if response is None or response.status_code != 200:
     raise Exception("SAM request failed after retries")
-
-if response.status_code != 200:
-    print("SAM returned error:", response.status_code)
-    raise Exception("SAM request failed")
 
 data = response.json()
 results = []
