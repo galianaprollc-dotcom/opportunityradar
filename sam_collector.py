@@ -33,6 +33,17 @@ KEYWORDS = [
 
 PRIORITY_STATES = ["FL", "GA", "Florida", "Georgia"]
 
+NAICS_CODES = [
+    "236220",
+    "237310",
+    "238220",
+    "238320",
+    "238330",
+    "238350",
+    "238910",
+    "562910"
+]
+
 params = {
     "api_key": API_KEY,
     "postedFrom": posted_from,
@@ -55,22 +66,35 @@ for item in data.get("opportunitiesData", []):
     if not any(word in title_lower for word in KEYWORDS):
         continue
 
+    naics = str(item.get("ncode", "Unknown"))
+    if naics not in NAICS_CODES:
+        continue
+
     state = item.get("state", "Unknown")
-    naics = item.get("ncode", "Unknown")
+
+    value = item.get("award", 0)
+    try:
+        value = float(value)
+    except:
+        value = 0
+
+    if value < 100000:
+        continue
 
     score = 0
 
-    if any(word in title_lower for word in KEYWORDS):
+    if state in PRIORITY_STATES:
         score += 10
 
-    if state in PRIORITY_STATES:
-        score += 5
+    if naics in NAICS_CODES:
+        score += 10
 
     results.append({
         "title": title,
         "solicitation": item.get("solicitationNumber", "N/A"),
         "state": state,
         "naics": naics,
+        "value": value,
         "score": score
     })
 
