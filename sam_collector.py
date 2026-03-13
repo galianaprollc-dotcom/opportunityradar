@@ -1,37 +1,32 @@
+import os
 import requests
 import json
 
-API_KEY = "PASTE_YOUR_SAM_API_KEY_HERE"
+API_KEY = os.environ.get("SAM_API_KEY")
 
-URL = "https://api.sam.gov/opportunities/v2/search"
+url = "https://api.sam.gov/prod/opportunities/v2/search"
 
 params = {
     "api_key": API_KEY,
-    "limit": 50,
-    "postedFrom": "01/01/2024",
+    "limit": 10
 }
 
-response = requests.get(URL, params=params)
+response = requests.get(url, params=params)
 
 data = response.json()
 
 opportunities = []
 
-for item in data.get("opportunitiesData", []):
-    
-    title = item.get("title")
-    solicitation = item.get("solicitationNumber")
-    state = item.get("placeOfPerformance", {}).get("state")
-    naics = item.get("naicsCode")
-    
-    opportunities.append({
-        "title": title,
-        "solicitation": solicitation,
-        "state": state,
-        "naics": naics
-    })
+if "opportunitiesData" in data:
+    for item in data["opportunitiesData"]:
+        opportunities.append({
+            "title": item.get("title", "Unknown Opportunity"),
+            "solicitation": item.get("solicitationNumber", "N/A"),
+            "state": item.get("placeOfPerformance", {}).get("state", "Unknown"),
+            "naics": item.get("naicsCode", "Unknown")
+        })
 
 with open("opportunities.json", "w") as f:
     json.dump(opportunities, f, indent=2)
 
-print("SAM opportunities collected.")
+print("Opportunities updated.")
