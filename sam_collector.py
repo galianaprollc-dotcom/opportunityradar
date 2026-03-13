@@ -55,23 +55,13 @@ for item in data.get("opportunitiesData", []):
     if not any(word in title_lower for word in KEYWORDS):
         continue
 
-    state = (
-        item.get("state")
-        or item.get("placeOfPerformance", {}).get("state")
-        or "Unknown"
-    )
-
-    naics = item.get("ncode") or item.get("naicsCode") or "Unknown"
-
-    value = None
-    award_data = item.get("award")
-    if isinstance(award_data, dict):
-        value = award_data.get("amount") or award_data.get("value")
-    elif isinstance(award_data, (int, float, str)):
-        value = award_data
+    state = item.get("state", "Unknown")
+    naics = item.get("ncode", "Unknown")
 
     score = 0
-    score += 10
+
+    if any(word in title_lower for word in KEYWORDS):
+        score += 10
 
     if state in PRIORITY_STATES:
         score += 5
@@ -81,7 +71,6 @@ for item in data.get("opportunitiesData", []):
         "solicitation": item.get("solicitationNumber", "N/A"),
         "state": state,
         "naics": naics,
-        "value": value,
         "score": score
     })
 
