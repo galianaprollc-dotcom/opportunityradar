@@ -11,51 +11,81 @@ today = datetime.utcnow()
 posted_to = today.strftime("%m/%d/%Y")
 posted_from = (today - timedelta(days=30)).strftime("%m/%d/%Y")
 
+KEYWORDS = [
+    "construction",
+    "repair",
+    "renovation",
+    "remediation",
+    "environmental",
+    "facility",
+    "facilities",
+    "maintenance",
+    "hvac",
+    "roofing",
+    "drywall",
+    "painting",
+    "demolition",
+    "cleanup",
+    "disaster",
+    "restoration",
+    "mold"
+]
+
+PRIORITY_STATES = ["FL", "GA", "Florida", "Georgia"]
+
 params = {
     "api_key": API_KEY,
     "postedFrom": posted_from,
     "postedTo": posted_to,
     "ptype": "o",
-    "limit": 100
+    "limit": 200
 }
 
-response = requests.get(url, params=params)
+response = requests.get(url, params=params, timeout=60)
+response.raise_for_status()
 data = response.json()
 
-opportunities = []
+results = []
 
 for item in data.get("opportunitiesData", []):
-
-    title = item.get("title","")
+    title = item.get("title", "")
     title_lower = title.lower()
 
-    keywords = [
-        "construction",
-        "repair",
-        "renovation",
-        "remediation",
-        "environmental",
-        "facility",
-        "maintenance",
-        "hvac",
-        "roofing",
-        "drywall",
-        "painting",
-        "demolition",
-        "cleanup"
-    ]
-
-    if not any(k in title_lower for k in keywords):
+    if not any(word in title_lower for word in KEYWORDS):
         continue
 
-    opportunities.append({
+    state = item.get("state", "Unknown")
+    naics = item.get("ncode", "Unknown")
+
+    amount = item.get("award", 0)
+    try:
+        amount = float(amount)
+    except:
+        amount = 0
+
+    if amount < 100000:
+        continue
+
+    score = 0
+
+    if any(word in title_lower for word in KEYWORDS):
+        score += 10
+
+    if state in PRIORITY_STATES:
+        score += 5
+
+    results.append({
         "title": title,
-        "solicitation": item.get("solicitationNumber","N/A"),
-        "state": item.get("state","Unknown"),
-        "naics": item.get("ncode","Unknown")
+        "solicitation": item.get("solicitationNumber", "N/A"),
+        "state": state,
+        "naics": naics,
+        "value": amount,
+        "score": score
     })
 
-with open("opportunities.json","w") as f:
-    json.dump(opportunities[:50],f,indent=2)
+results.sort(key=lambda x: x["score"], reverse=True)
 
-print("Updated opportunities:",len(opportunities[:50]))
+with open("opportunities.json", "w") as f:
+    json.dump(results[:50], f, indent=2)
+
+print("Updated opportunities:", len(results[:50]))
