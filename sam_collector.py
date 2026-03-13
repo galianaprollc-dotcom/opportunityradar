@@ -50,7 +50,10 @@ PRIORITY_STATES = {"FL", "GA", "Florida", "Georgia"}
 params = {
     "api_key": API_KEY,
     "limit": 100,
-    "ptype": "o"
+    "ptype": "o",
+    "postedFrom": "01/01/2024",
+    "postedTo": "12/31/2026"
+}
 }
 
 time.sleep(5)
