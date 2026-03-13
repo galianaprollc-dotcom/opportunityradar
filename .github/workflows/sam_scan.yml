@@ -1,0 +1,37 @@
+name: OpportunityRadar SAM Scan
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run SAM collector
+        env:
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+        run: |
+          python sam_collector.py
+
+      - name: Commit new opportunities
+        run: |
+          git config --global user.name "OpportunityRadar Bot"
+          git config --global user.email "bot@opportunityradar"
+          git add opportunities.json
+          git commit -m "Update opportunities feed" || echo "No changes"
+          git push
