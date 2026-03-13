@@ -4,83 +4,97 @@ import requests
 import time
 
 API_KEY = os.environ.get("SAM_API_KEY")
-
 URL = "https://api.sam.gov/opportunities/v2/search"
+
+NAICS_FILTER = {
+    "236220",  # Commercial building construction
+    "237310",  # Highway / street / site
+    "238220",  # Plumbing / HVAC
+    "238320",  # Painting / wall covering
+    "238330",  # Flooring
+    "238350",  # Finish carpentry
+    "238910",  # Site prep
+    "238990",  # Specialty trade
+    "562910"   # Environmental remediation
+}
+
+EXCLUDE_WORDS = [
+    "ship",
+    "voyage",
+    "vessel",
+    "antenna",
+    "spectrum",
+    "electromagnetic",
+    "analyzer",
+    "pathology",
+    "medical",
+    "vehicle",
+    "truck",
+    "wrecker",
+    "actuator",
+    "parts",
+    "aircraft",
+    "missile",
+    "weapon",
+    "cyber",
+    "software",
+    "telecom",
+    "communications",
+    "radar",
+    "naval",
+    "marine"
+]
+
+PRIORITY_STATES = {"FL", "GA", "Florida", "Georgia"}
 
 params = {
     "api_key": API_KEY,
-    "limit": 50,
+    "limit": 100,
     "ptype": "o"
 }
 
-print("Requesting SAM opportunities...")
-
 time.sleep(5)
 
-response = requests.get(URL, params=params)
+response = requests.get(URL, params=params, timeout=60)
 
 if response.status_code != 200:
     print("SAM returned error:", response.status_code)
-    exit()
+    raise Exception("SAM request failed")
 
 data = response.json()
-
 results = []
 
-NAICS_FILTER = [
-"236220",
-"237310",
-"238220",
-"238320",
-"238350",
-"238990",
-"562910"
-]
-
 for item in data.get("opportunitiesData", []):
+    title = item.get("title", "")
+    title_lower = title.lower()
 
-    title = item.get("title","")
-    naics = str(item.get("naicsCode",""))
+    naics = str(item.get("naicsCode", "")).strip()
+    state = item.get("placeOfPerformanceState", "Unknown")
 
     if naics not in NAICS_FILTER:
         continue
 
-    title = item.get("title","")
-    title_lower = title.lower()
-
-    EXCLUDE = [
-        "ship",
-        "naval",
-        "aircraft",
-        "weapon",
-        "missile",
-        "pathology",
-        "medical",
-        "radar",
-        "telecom",
-        "software",
-        "cyber",
-        "vehicle"
-    ]
-
-    if any(x in title_lower for x in EXCLUDE):
+    if any(word in title_lower for word in EXCLUDE_WORDS):
         continue
 
-    value = None
+    score = 10
+    if state in PRIORITY_STATES:
+        score += 5
 
-    if "award" in item and isinstance(item["award"], dict):
-        value = item["award"].get("amount")
+    value = item.get("award")
+    if isinstance(value, dict):
+        value = value.get("amount")
 
     results.append({
         "title": title,
-        "solicitation": item.get("solicitationNumber"),
-        "state": item.get("placeOfPerformanceState","Unknown"),
-        "naics": item.get("naicsCode","Unknown"),
-        "value": value,
-        "score": 10
+        "solicitation": item.get("solicitationNumber", "N/A"),
+        "state": state,
+        "naics": naics if naics else "Unknown",
+        "value": value if value else "Not listed",
+        "score": score
     })
 
-print("Saving filtered opportunities:", len(results))
-
-with open("opportunities.json","w") as f:
+with open("opportunities.json", "w") as f:
     json.dump(results[:50], f, indent=2)
+
+print("Updated filtered opportunities:", len(results[:50]))
