@@ -12,57 +12,82 @@ posted_to = today.strftime("%m/%d/%Y")
 posted_from = (today - timedelta(days=30)).strftime("%m/%d/%Y")
 
 KEYWORDS = [
-"construction",
-"repair",
-"renovation",
-"remediation",
-"environmental",
-"facility",
-"facilities",
-"maintenance",
-"hvac",
-"roofing",
-"drywall",
-"painting",
-"demolition",
-"cleanup",
-"disaster",
-"restoration",
-"mold"
+    "construction",
+    "repair",
+    "renovation",
+    "remediation",
+    "environmental",
+    "facility",
+    "facilities",
+    "maintenance",
+    "hvac",
+    "roofing",
+    "drywall",
+    "painting",
+    "demolition",
+    "cleanup",
+    "disaster",
+    "restoration",
+    "mold"
 ]
 
+PRIORITY_STATES = ["FL", "GA", "Florida", "Georgia"]
+
 params = {
-"api_key": API_KEY,
-"postedFrom": posted_from,
-"postedTo": posted_to,
-"limit": 200
+    "api_key": API_KEY,
+    "postedFrom": posted_from,
+    "postedTo": posted_to,
+    "ptype": "o",
+    "limit": 200,
+    "offset": 0
 }
 
-response = requests.get(url, params=params)
+response = requests.get(url, params=params, timeout=60)
+response.raise_for_status()
 data = response.json()
 
 results = []
 
 for item in data.get("opportunitiesData", []):
+    title = item.get("title", "")
+    title_lower = title.lower()
 
-title = item.get("title","")
-title_lower = title.lower()
+    if not any(word in title_lower for word in KEYWORDS):
+        continue
 
-if not any(word in title_lower for word in KEYWORDS):
-continue
+    state = (
+        item.get("state")
+        or item.get("placeOfPerformance", {}).get("state")
+        or "Unknown"
+    )
 
-results.append({
-"title": title,
-"solicitation": item.get("solicitationNumber","N/A"),
-"state": item.get("placeOfPerformance","Unknown"),
-"naics": item.get("naicsCode","Unknown"),
-"value": item.get("award","Not listed"),
-"agency": item.get("department","Unknown"),
-"deadline": item.get("responseDeadLine","Unknown"),
-"setaside": item.get("typeOfSetAside","None")
-})
+    naics = item.get("ncode") or item.get("naicsCode") or "Unknown"
 
-with open("opportunities.json","w") as f:
-json.dump(results[:50],f,indent=2)
+    value = None
+    award_data = item.get("award")
+    if isinstance(award_data, dict):
+        value = award_data.get("amount") or award_data.get("value")
+    elif isinstance(award_data, (int, float, str)):
+        value = award_data
 
-print("Updated opportunities:",len(results))
+    score = 0
+    score += 10
+
+    if state in PRIORITY_STATES:
+        score += 5
+
+    results.append({
+        "title": title,
+        "solicitation": item.get("solicitationNumber", "N/A"),
+        "state": state,
+        "naics": naics,
+        "value": value,
+        "score": score
+    })
+
+results.sort(key=lambda x: x["score"], reverse=True)
+
+with open("opportunities.json", "w") as f:
+    json.dump(results[:50], f, indent=2)
+
+print("Updated opportunities:", len(results[:50]))
