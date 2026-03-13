@@ -100,6 +100,34 @@ cursor:pointer;
 </div>
 
 </div>
+<script>
+async function loadOpportunities() {
+    try {
+        const response = await fetch("opportunities.json");
+        const data = await response.json();
 
+        const container = document.querySelector(".container");
+
+        data.forEach(op => {
+            const card = document.createElement("div");
+            card.className = "card";
+
+            card.innerHTML = `
+                <h2>${op.title}</h2>
+                <div class="metric">Solicitation: ${op.solicitation}</div>
+                <div class="metric">State: ${op.state}</div>
+                <div class="metric">NAICS: ${op.naics}</div>
+            `;
+
+            container.appendChild(card);
+        });
+
+    } catch (err) {
+        console.log("No opportunities yet.");
+    }
+}
+
+loadOpportunities();
+</script>
 </body>
 </html>
