@@ -16,30 +16,46 @@ params = {
     "postedFrom": posted_from,
     "postedTo": posted_to,
     "ptype": "o",
-    "limit": 20,
-    "offset": 0
+    "limit": 100
 }
 
-response = requests.get(url, params=params, timeout=60)
-
-print("STATUS:", response.status_code)
-print("TEXT:", response.text[:500])
-
-response.raise_for_status()
-
+response = requests.get(url, params=params)
 data = response.json()
 
 opportunities = []
 
 for item in data.get("opportunitiesData", []):
+
+    title = item.get("title","")
+    title_lower = title.lower()
+
+    keywords = [
+        "construction",
+        "repair",
+        "renovation",
+        "remediation",
+        "environmental",
+        "facility",
+        "maintenance",
+        "hvac",
+        "roofing",
+        "drywall",
+        "painting",
+        "demolition",
+        "cleanup"
+    ]
+
+    if not any(k in title_lower for k in keywords):
+        continue
+
     opportunities.append({
-        "title": item.get("title", "Unknown Opportunity"),
-        "solicitation": item.get("solicitationNumber", "N/A"),
-        "state": item.get("state", "Unknown"),
-        "naics": item.get("ncode", "Unknown")
+        "title": title,
+        "solicitation": item.get("solicitationNumber","N/A"),
+        "state": item.get("state","Unknown"),
+        "naics": item.get("ncode","Unknown")
     })
 
-with open("opportunities.json", "w") as f:
-    json.dump(opportunities, f, indent=2)
+with open("opportunities.json","w") as f:
+    json.dump(opportunities[:50],f,indent=2)
 
-print(f"Opportunities updated: {len(opportunities)}")
+print("Updated opportunities:",len(opportunities[:50]))
