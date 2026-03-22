@@ -1,5 +1,29 @@
 [
   {
+    "title": "PN 93099 Aircraft Maintenance Hangar",
+    "solicitation": "W912PM26RA010",
+    "state": "Unknown",
+    "naics": "236220",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Procurement of Ship Fenders",
+    "solicitation": "N0010426QX069",
+    "state": "Unknown",
+    "naics": "336612",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Audit & Accreditation Services for Mexican Correctional Facilities",
+    "solicitation": "19AQMM26Q0109",
+    "state": "Unknown",
+    "naics": "611430",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "SLIDE ASSY,CHASSIS",
     "solicitation": "SPRPA126QXA91",
     "state": "Unknown",
@@ -52,30 +76,6 @@
     "solicitation": "M0031826QG003",
     "state": "Unknown",
     "naics": "621910",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "16--POWER AMPLIFIER ASS, IN REPAIR/MODIFICATION OF",
-    "solicitation": "N0038325RD052",
-    "state": "Unknown",
-    "naics": "336413",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Z--Repair/Replace HVAC at HQ/NOC, NPS-REDW",
-    "solicitation": "140P8425R0001",
-    "state": "Unknown",
-    "naics": "238220",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Design-Build (DB) Construction Simple Award Task Order Contract (SATOC) in Bulgaria and Romania",
-    "solicitation": "W912GB26RA022",
-    "state": "Unknown",
-    "naics": "236220",
     "value": "Unknown",
     "score": 10
   }
