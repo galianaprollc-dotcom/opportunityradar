@@ -1,46 +1,14 @@
 [
   {
-    "title": "Solicitation for Supply &  Installation of metal corrugated skin on top of HU",
-    "solicitation": "191N6526Q0023",
+    "title": "Drone Show Services",
+    "solicitation": "19TH2026Q0023",
     "state": "Unknown",
-    "naics": "237",
+    "naics": "711310",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Army Family Housing, Phases 1 and 2, Chievres Air Base ",
-    "solicitation": "W912GB26RA015",
-    "state": "Unknown",
-    "naics": "236115",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "ANODE,CORROSION PRE",
-    "solicitation": "N0010426QBP77",
-    "state": "Unknown",
-    "naics": "332510",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "19WA8026Q0012 - Preventative Maintenance on 3x Fire Suppression Systems at U.S. Embassy Windhoek",
-    "solicitation": "19WA8026Q0012",
-    "state": "Unknown",
-    "naics": "23899",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "FAN,VENTILATING",
-    "solicitation": "SPRMM126QMC86",
-    "state": "Unknown",
-    "naics": "333413",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "KFFO GROUND HERBICIDE TREATMENT",
+    "title": "F--KFFO GROUND HERBICIDE TREATMENT",
     "solicitation": "140L4326Q0034",
     "state": "Unknown",
     "naics": "115310",
@@ -48,34 +16,66 @@
     "score": 10
   },
   {
-    "title": "TRI-LAKES PROJECT WEED CONTROL",
-    "solicitation": "W9128F26QA022",
+    "title": "Demineralizer",
+    "solicitation": "N4215826QE025",
     "state": "Unknown",
-    "naics": "561730",
+    "naics": "333310",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "W15QKN-26-Q-A042 Grounds Maintenance Services Webster NY",
-    "solicitation": "W15QKN-26-Q-A042",
+    "title": "DK - Heart Butte Transformer Pad SOD ",
+    "solicitation": "140R6026Q0033",
     "state": "Unknown",
-    "naics": "561730",
+    "naics": "238210",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Treasury Simplified Construction Ordering Vehicle (TSCOV)",
-    "solicitation": "2032H326R00006",
+    "title": "Justification and Solicitation-Bentley Enterprise Public Sector 365 Subscription",
+    "solicitation": "W912DY26QA097",
     "state": "Unknown",
-    "naics": "236220",
+    "naics": "513210",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "LC- Multiple Locations-Replace Various Fire Hydrants and Hydrant Valves",
-    "solicitation": "N4008526R0126",
+    "title": "Amended Solicitation_Intraoral Dental Cameras",
+    "solicitation": "36C25526Q0270",
     "state": "Unknown",
-    "naics": "237110",
+    "naics": "339114",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "6515-- Steamer Sterilizer Cabinets - SPS",
+    "solicitation": "36C24626Q0328",
+    "state": "Unknown",
+    "naics": "339112",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "NAWCAD WOLF Oscilloscope",
+    "solicitation": "N0042126Q1108",
+    "state": "Unknown",
+    "naics": "334515",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "PUMP,CENTRIFUGAL",
+    "solicitation": "N0010424QJA73",
+    "state": "Unknown",
+    "naics": "333914",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "HEATING,ELEMENT",
+    "solicitation": "SPRMM126QME23",
+    "state": "Unknown",
+    "naics": "335312",
     "value": "Unknown",
     "score": 10
   }
