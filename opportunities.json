@@ -1,81 +1,81 @@
 [
   {
-    "title": "<CANCELLED> NONSKID DECK COVERING ON FLIGHT DECK; REPLACE",
-    "solicitation": "N6264926R0035",
+    "title": "GENERATOR,PULSE",
+    "solicitation": "N0038326QPA71",
     "state": "Unknown",
-    "naics": "336611",
+    "naics": "334412",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Helium Leak Detector",
-    "solicitation": "WS476837",
-    "state": "Unknown",
-    "naics": "334513",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "FILTER ELEMENT,AGEN",
-    "solicitation": "N0010426QBQ16",
-    "state": "Unknown",
-    "naics": "339113",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "New Jersey Intra Coastal Waterway Bank/Shoreline Stabilization Cape May Canal/Point Pleasant Canal ",
-    "solicitation": "W912BU26BA010",
-    "state": "Unknown",
-    "naics": "237990",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Highway 86 Checkpoint Shelter Structure Expansion",
-    "solicitation": "70B01C25R00000220_2",
+    "title": "NEW CONTRACT - CONSTRUCT LIFT STATION AT SOUTH POST HOUSING",
+    "solicitation": "W911SA26BA003",
     "state": "Unknown",
     "naics": "236220",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "ENCODER-DECODER,COM",
-    "solicitation": "SPRMM126QKD19",
+    "title": "BUMPER EXTENSTION",
+    "solicitation": "N0040626Q0022",
     "state": "Unknown",
-    "naics": "334290",
+    "naics": "332510",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "16--HEAT EXCHANGER,AIR, IN REPAIR/MODIFICATION OF",
-    "solicitation": "N0038326QNA28",
+    "title": "NNSY - SHOT PEENING SERVICES",
+    "solicitation": "N4215826Q0006",
     "state": "Unknown",
-    "naics": "336413",
+    "naics": "332811",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "FY26 MDC BROOKLYN BUILDING 4 / DAYTON MANOR Landscaping services",
-    "solicitation": "15BBR026Q00000009",
+    "title": "CRIMPING TOOL",
+    "solicitation": "N0010426QBG26",
     "state": "Unknown",
-    "naics": "561730",
+    "naics": "332216",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "CHAIN HOIST MOGAS SYSTEM",
-    "solicitation": "N6817126QN029",
+    "title": "TIERED EVALUATION FY26: NRM (PROJ: 573-21-705) BB - Replace Deteriorated AHU 21, 22, 23 and 24   Gainesville FL Solicitation",
+    "solicitation": "36C24826R0039",
     "state": "Unknown",
-    "naics": "333923",
+    "naics": "236220",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "ADAPTER,PHOTOSENSOR",
-    "solicitation": "N0010426QBP92",
+    "title": "ADM Aging and Surveillance",
+    "solicitation": "FA821326RB002",
     "state": "Unknown",
-    "naics": "332919",
+    "naics": "541380",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "MODULATOR;  BACKPLANE ASSEMBLY; MIXER ASSEY;  CIRCUIT CARD ASSEMB; AMPLIFIER, ELECTRONIC CONTROL; CCA, SAFETY AND DISP",
+    "solicitation": "N0010426QX070",
+    "state": "Unknown",
+    "naics": "334419",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "60--CV FIBER CBL W5 - AND SIMILAR REPLACEMENT PARTS",
+    "solicitation": "N0010426RBN89",
+    "state": "Unknown",
+    "naics": "334417",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "CDU PRGMED ASSY",
+    "solicitation": "N0010426QYA85",
+    "state": "Unknown",
+    "naics": "334413",
     "value": "Unknown",
     "score": 10
   }
