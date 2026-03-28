@@ -1,9 +1,41 @@
 [
   {
+    "title": "USNS GRASP Hawser Reels",
+    "solicitation": "N3220526Q7111",
+    "state": "Unknown",
+    "naics": "332999",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "CIRCUIT CARD ASSEMB",
     "solicitation": "N0010426QQA95",
     "state": "Unknown",
     "naics": "334412",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "28TH OD CO Three (3) Mobility Courses",
+    "solicitation": "W9124726QA016",
+    "state": "Unknown",
+    "naics": "611699",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": " Repair Roof AFCENT B1130",
+    "solicitation": "FA480326B0012",
+    "state": "Unknown",
+    "naics": "238160",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "6530--DOMICILIARY Furniture",
+    "solicitation": "36C24626Q0439",
+    "state": "Unknown",
+    "naics": "337127",
     "value": "Unknown",
     "score": 10
   },
@@ -24,58 +56,26 @@
     "score": 10
   },
   {
-    "title": "EUR/ATHENS - Purchase and delivery of dutiable heating oil - CANCELLED",
-    "solicitation": "19GR1026Q0010",
+    "title": "Dockside (DS): USCGC MIDGETT FY26 Repair",
+    "solicitation": "70Z08526QLREP0011",
     "state": "Unknown",
-    "naics": "211130",
+    "naics": "336611",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "USNS GRASP Hawser Reels",
-    "solicitation": "N3220526Q7111",
+    "title": "CLAMP CABLE",
+    "solicitation": "N0010426QAA91",
     "state": "Unknown",
-    "naics": "332999",
+    "naics": "333998",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "POWER SUPPLY",
-    "solicitation": "N0010425QSC53",
+    "title": "20--TILE",
+    "solicitation": "N0010426QYA59",
     "state": "Unknown",
-    "naics": "335931",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Catholic Coordinator of Religious Education (CRE)",
-    "solicitation": "M6740026Q0008",
-    "state": "Unknown",
-    "naics": "813110",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Grounds Maintenance Services, West Hill Dam, Uxbridge, MA",
-    "solicitation": "W912WJ26QA068",
-    "state": "Unknown",
-    "naics": "561730",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "NUT,SELF-LOCKING,HE",
-    "solicitation": "N0010426QNB47",
-    "state": "Unknown",
-    "naics": "332722",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Grand Isle and Vicinity, Hurricane Ida Repairs, Stone Segmented Breakwaters, Jefferson Parish, LA\tEd 26-001",
-    "solicitation": "W912P826BA011",
-    "state": "Unknown",
-    "naics": "237990",
+    "naics": "336611",
     "value": "Unknown",
     "score": 10
   }
