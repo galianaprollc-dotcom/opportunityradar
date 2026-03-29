@@ -1,9 +1,65 @@
 [
   {
+    "title": "MCT-GSO-P & S Waste Management for Warehouse",
+    "solicitation": "19MU3026Q0011",
+    "state": "Unknown",
+    "naics": "562111",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Contract Delivery Service (CDS) HCR 956F6 ROSEVILLE MAIN OFFICE, CA - H004, CA",
+    "solicitation": "801-690-26",
+    "state": "Unknown",
+    "naics": "491110",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "USNS GRASP Hawser Reels",
     "solicitation": "N3220526Q7111",
     "state": "Unknown",
     "naics": "332999",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "22 MEU Drones",
+    "solicitation": "M2710026Q0001",
+    "state": "Unknown",
+    "naics": "336411",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "FY26 Willapa Sediment Characterization Service",
+    "solicitation": "W912DW26QA035",
+    "state": "Unknown",
+    "naics": "541620",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "RLP. 36C24W26R0013 (New Replacing Lease)  CBOC in Horizon City, Texas",
+    "solicitation": "36C24W26R0013",
+    "state": "Unknown",
+    "naics": "531120",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Arlington National Cemetery HVAC Maintenance Services",
+    "solicitation": "W91QV126RA022",
+    "state": "Unknown",
+    "naics": "238220",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Contract Delivery Service (CDS) HCR 956F3 PLACERVILLE, CA - H005, CA",
+    "solicitation": "801-689-26",
+    "state": "Unknown",
+    "naics": "491110",
     "value": "Unknown",
     "score": 10
   },
@@ -20,62 +76,6 @@
     "solicitation": "W9124726QA016",
     "state": "Unknown",
     "naics": "611699",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": " Repair Roof AFCENT B1130",
-    "solicitation": "FA480326B0012",
-    "state": "Unknown",
-    "naics": "238160",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "6530--DOMICILIARY Furniture",
-    "solicitation": "36C24626Q0439",
-    "state": "Unknown",
-    "naics": "337127",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "CABLE ASSEMBLY,SPEC",
-    "solicitation": "N0010426QXA34",
-    "state": "Unknown",
-    "naics": "335311",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "17--TOWBAR,AIRCRAFT",
-    "solicitation": "SPRPA126RYA33",
-    "state": "Unknown",
-    "naics": "336413",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Dockside (DS): USCGC MIDGETT FY26 Repair",
-    "solicitation": "70Z08526QLREP0011",
-    "state": "Unknown",
-    "naics": "336611",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "CLAMP CABLE",
-    "solicitation": "N0010426QAA91",
-    "state": "Unknown",
-    "naics": "333998",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "20--TILE",
-    "solicitation": "N0010426QYA59",
-    "state": "Unknown",
-    "naics": "336611",
     "value": "Unknown",
     "score": 10
   }
