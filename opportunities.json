@@ -1,9 +1,33 @@
 [
   {
+    "title": "Advanced Manufacturing Training",
+    "solicitation": "W911SG26QA026",
+    "state": "Unknown",
+    "naics": "611430",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Fort Peck Dam Area Mowing and Trimming",
+    "solicitation": "W9128F26QA031",
+    "state": "Unknown",
+    "naics": "561730",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "FUEL CELL,RH SPONSO",
     "solicitation": "SPRPA126QWB07",
     "state": "Unknown",
     "naics": "336413",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Tenkiller - Webbers Falls Refuse Collection Service",
+    "solicitation": "W912BV26QA055",
+    "state": "Unknown",
+    "naics": "562111",
     "value": "Unknown",
     "score": 10
   },
@@ -16,66 +40,42 @@
     "score": 10
   },
   {
+    "title": "Paint, Primer, Thinner and Blasting Media BPA - SOLICITATION",
+    "solicitation": "W912EK26QA004",
+    "state": "Unknown",
+    "naics": "325510",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "GYROSCOPE,RATE",
+    "solicitation": "N0010426QQA98",
+    "state": "Unknown",
+    "naics": "334511",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "SOLICITATION: Mowing Services for Whitney and Aquilla Lakes, TX",
+    "solicitation": "W9126G26QA014",
+    "state": "Unknown",
+    "naics": "561730",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "City of McMechen, West Virginia, Stormwater Project - Section 219",
+    "solicitation": "W911WN26BA007",
+    "state": "Unknown",
+    "naics": "237110",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "USS HIGGINS (DDG-76) FY26 6C1 SRA BUNDLE 2, Yokosuka Japan",
     "solicitation": "N6264926RA038",
     "state": "Unknown",
     "naics": "336611",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Various Promotional Items for Recruiting & Retention",
-    "solicitation": "W912SV26QA003",
-    "state": "Unknown",
-    "naics": "339940",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Multiple MATOC Construction Projects at Osan AB, RoK",
-    "solicitation": "W90VN626RA016",
-    "state": "Unknown",
-    "naics": "236220",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "250th Anniversary Illumination Program -Downtown Bucharest",
-    "solicitation": "19R01026Q0009",
-    "state": "Unknown",
-    "naics": "561990",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "USNS WILLIAM MCLEAN Trident Doors",
-    "solicitation": "N3220526Q7124",
-    "state": "Unknown",
-    "naics": "332321",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "X1AB--Executive Leadership Training",
-    "solicitation": "36C10D26Q0063",
-    "state": "Unknown",
-    "naics": "721110",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "FAIRING,AIRCRAFT",
-    "solicitation": "SPRPA125QEA92",
-    "state": "Unknown",
-    "naics": "336413",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "RFQ for On-site Secure Document Shredding Services",
-    "solicitation": "28321326QR0200002",
-    "state": "Unknown",
-    "naics": "561990",
     "value": "Unknown",
     "score": 10
   }
