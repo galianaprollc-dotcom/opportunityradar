@@ -1,81 +1,81 @@
 [
   {
-    "title": "J042--Fire Alarm Service",
-    "solicitation": "36C25626Q0430",
+    "title": "Bldg 77 HVAC Duct Cleaning AND Bldg 56 Exterior Window Repair",
+    "solicitation": "N4008526R0048",
     "state": "Unknown",
-    "naics": "561621",
+    "naics": "236210",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Test Facility Pump System Replacement",
-    "solicitation": "FA9101269TFPS",
+    "title": "CYLINDER HEAD,DIESE",
+    "solicitation": "N0010424QXC00",
     "state": "Unknown",
-    "naics": "333996",
+    "naics": "333618",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "USNS ROBERT F KENNEDY MTA FY27",
-    "solicitation": "N3220526R6051",
-    "state": "Unknown",
-    "naics": "336611",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Advanced Manufacturing Training",
-    "solicitation": "W911SG26QA026",
-    "state": "Unknown",
-    "naics": "611430",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Fort Peck Dam Area Mowing and Trimming",
-    "solicitation": "W9128F26QA031",
+    "title": "Grounds Maintenance Services, West Hill Dam, Uxbridge, MA",
+    "solicitation": "W912WJ26QA068",
     "state": "Unknown",
     "naics": "561730",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "FUEL CELL,RH SPONSO",
-    "solicitation": "SPRPA126QWB07",
+    "title": "59--CABLE ASSEMBLY,SPEC, IN REPAIR/MODIFICATION OF",
+    "solicitation": "N0010425QNF13",
     "state": "Unknown",
-    "naics": "336413",
+    "naics": "335931",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Tenkiller - Webbers Falls Refuse Collection Service",
-    "solicitation": "W912BV26QA055",
+    "title": "Fire Panel Maintenance and Service for Sector Delaware Bay AOR",
+    "solicitation": "37050PR26FIREPANEL",
     "state": "Unknown",
-    "naics": "562111",
+    "naics": "561621",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "USS RAFAEL PERALTA (DDG-115) FY26 SIA BUNDLE #1",
-    "solicitation": "N6264926RA036",
+    "title": "MULTI FUNCTION DSPL",
+    "solicitation": "N0010426QUA38",
     "state": "Unknown",
-    "naics": "336611",
+    "naics": "334412",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Paint, Primer, Thinner and Blasting Media BPA - SOLICITATION",
-    "solicitation": "W912EK26QA004",
+    "title": "59--SWITCH",
+    "solicitation": "N0010426QBR26",
     "state": "Unknown",
-    "naics": "325510",
+    "naics": "335313",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "GYROSCOPE,RATE",
-    "solicitation": "N0010426QQA98",
+    "title": "Pump Unit, Centrifugal",
+    "solicitation": "SPRDL1-26-R-0063",
     "state": "Unknown",
-    "naics": "334511",
+    "naics": "333914",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "191D3226R10017 NEC JANITORIAL SERVICE",
+    "solicitation": "191D3226R0017",
+    "state": "Unknown",
+    "naics": "561720",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "VREL",
+    "solicitation": "N0010426QBR33",
+    "state": "Unknown",
+    "naics": "332919",
     "value": "Unknown",
     "score": 10
   }
