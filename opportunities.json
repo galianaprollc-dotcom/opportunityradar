@@ -1,5 +1,21 @@
 [
   {
+    "title": "AKRO STRCUTURAL FIRE SUPPRESSION & CONTROL EQUIP I",
+    "solicitation": "140P9726Q0017",
+    "state": "Unknown",
+    "naics": "541350",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Daikin VRV COMPRESSOR",
+    "solicitation": "W90VN926QA032",
+    "state": "Unknown",
+    "naics": "333415",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "USNS ROBERT F KENNEDY MTA FY27",
     "solicitation": "N3220526R6051",
     "state": "Unknown",
@@ -60,22 +76,6 @@
     "solicitation": "089495-26-A-0059",
     "state": "Unknown",
     "naics": "236220",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Solicitation - U.S. Mission Tanzania",
-    "solicitation": "19AQMM26R0140",
-    "state": "Unknown",
-    "naics": "561612",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "RFO HVAC UPGRADE, WY",
-    "solicitation": "140L0626R0001",
-    "state": "Unknown",
-    "naics": "238220",
     "value": "Unknown",
     "score": 10
   }
