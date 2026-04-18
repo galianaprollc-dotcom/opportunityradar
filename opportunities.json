@@ -1,5 +1,21 @@
 [
   {
+    "title": "Physical Access Control System (PACS) and Intrusion Detection System (IDS) Upgrade",
+    "solicitation": "W91RUS26QA026",
+    "state": "Unknown",
+    "naics": "561621",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Boat Hoist Seat Angle Support Plate Repairs, Stamford Hurricane Barrier, Stamford, CT",
+    "solicitation": "W912WJ26QA084",
+    "state": "Unknown",
+    "naics": "238290",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "Z2DA--Renovate Hot Lab  539-26-502",
     "solicitation": "36C25026Q0424",
     "state": "Unknown",
@@ -8,74 +24,58 @@
     "score": 10
   },
   {
-    "title": "Construction of ABA compliant bathroom in Embassy Bratislava",
-    "solicitation": "19L01026Q0002",
+    "title": "San Joaquin/Stockton DWSC FY26 Maintenance Dredging Project",
+    "solicitation": "W912P726BA001",
     "state": "Unknown",
-    "naics": "236220",
+    "naics": "237990",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Procurement of NUT,HEX .62-11 UNC",
-    "solicitation": "N0010426QFD26",
+    "title": "RFP to Lease Spaces for Mobile Vending Operations at Gateway National Recreation Area",
+    "solicitation": "GATE_Mobile-Vending_RFP",
     "state": "Unknown",
-    "naics": "332722",
+    "naics": "53",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Ground Maintenance and Tree Assessment USAG Wiesbaden",
-    "solicitation": "W912CM26QA014",
+    "title": "Furniture Requirement",
+    "solicitation": "FA255026Q0011",
     "state": "Unknown",
-    "naics": "561730",
+    "naics": "337214",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Precision Grenadier System  Prototype Project Opportunity (PPON)",
-    "solicitation": "W15QKN-26-R-1BH5",
+    "title": "Holistic Models for Decision Making",
+    "solicitation": "FA238426SB001",
     "state": "Unknown",
-    "naics": "332994",
+    "naics": "541715",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Asphalt Repair Project at the U.S. Embassy Baku, Azerbaijan",
-    "solicitation": "19AJ2026Q0006",
-    "state": "Unknown",
-    "naics": "238990",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Procurement of BOLT,SHOULDER",
-    "solicitation": "N0010426QFD38",
-    "state": "Unknown",
-    "naics": "332722",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Roof Maintenance - Hamilton Bermuda",
-    "solicitation": "19UK5626Q0027",
-    "state": "Unknown",
-    "naics": "238190",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "RFP for short term disability insurance",
-    "solicitation": "19SZ3526R0002_",
-    "state": "Unknown",
-    "naics": "52411",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Paramaribo/roof top unit replacement",
-    "solicitation": "PR15809685",
+    "title": "J041--CW Coil Replacement",
+    "solicitation": "36C24826Q0555",
     "state": "Unknown",
     "naics": "238220",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Protestant Religious Education Coordinator - Maxwell AFB",
+    "solicitation": "FA330026Q0011",
+    "state": "Unknown",
+    "naics": "813110",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "CA NP MOJA 11(2) 10(2) KELBAKER, KELSO-CIMA, CIMA and MORNING STAR MINE ROADS",
+    "solicitation": "6982AF25B000013",
+    "state": "Unknown",
+    "naics": "237310",
     "value": "Unknown",
     "score": 10
   }
