@@ -1,9 +1,49 @@
 [
   {
+    "title": "Hangar/Aircraft Maintenance Unit at Davis-Monthan Air Force Base, Arizona",
+    "solicitation": "W912PL26RA001",
+    "state": "Unknown",
+    "naics": "236220",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Request for Whitepapers: AEDC Velocity Alliance - A Multi-Billion Dollar OTA Consortium Opportunity",
+    "solicitation": "FA9101-26-9-Velocity_Alliance",
+    "state": "Unknown",
+    "naics": "541330",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Aircraft Trainer Repair at Columbus AFB",
+    "solicitation": "FA302226Q0005",
+    "state": "Unknown",
+    "naics": "811310",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "Maintenance and Repair of Emergency Alarm Systems",
     "solicitation": "W912CM26QA016",
     "state": "Unknown",
     "naics": "922160",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Radio Frequency Identification",
+    "solicitation": "F3YCAY4122AC03",
+    "state": "Unknown",
+    "naics": "334419",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Maintenance Dredging of NY & NJ Channels, Seguine/Ward/Outerbridge Reaches, Federal Navigation Project",
+    "solicitation": "W912DS26BA014",
+    "state": "Unknown",
+    "naics": "237990",
     "value": "Unknown",
     "score": 10
   },
@@ -16,66 +56,26 @@
     "score": 10
   },
   {
-    "title": "U.S. Senate Cisco Catalyst Hardware",
-    "solicitation": "2026-R-051",
+    "title": "Lowell National Historical Park - Security Upgrade",
+    "solicitation": "140P4326R0009",
     "state": "Unknown",
-    "naics": "541519",
+    "naics": "238210",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "126 ARW Repair Overhead Doors - Scott AFB, IL",
-    "solicitation": "W50S7S26QA001",
+    "title": "Entrance Bridge Concrete Abutment Repairs, Otter Brook Lake, Keene, NH",
+    "solicitation": "W912WJ26QA080",
+    "state": "Unknown",
+    "naics": "237310",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Z1DA--SATOC IDIQ Construction Contract Base Plus 4: Roseburg",
+    "solicitation": "36C26026R0048",
     "state": "Unknown",
     "naics": "236220",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Non-Tactical Vehicle Lease for CJTF HOA",
-    "solicitation": "N3319126R0018",
-    "state": "Unknown",
-    "naics": "532112",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Misawa Information Monitoring and Protection Services (IMPS)",
-    "solicitation": "FA520526R0004",
-    "state": "Unknown",
-    "naics": "561612",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Z--DK Heart Butte Dam Safety Modification",
-    "solicitation": "140R6026R0004",
-    "state": "Unknown",
-    "naics": "237990",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Kone Traction Elevator Preventive Maintenance Service",
-    "solicitation": "19Z11526Q0009",
-    "state": "Unknown",
-    "naics": "238290",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Request for Quotations for Elevator Preventative Maintenance Services",
-    "solicitation": "19SF2026Q0008",
-    "state": "Unknown",
-    "naics": "238290",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "RFQ U.S. Embassy Pretoria Kitchen Extractor Maintenance",
-    "solicitation": "PR15928787",
-    "state": "Unknown",
-    "naics": "56172",
     "value": "Unknown",
     "score": 10
   }
