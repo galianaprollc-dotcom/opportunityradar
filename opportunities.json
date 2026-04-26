@@ -1,5 +1,37 @@
 [
   {
+    "title": "Medical Support Services for CBP (including medical exams, fitness for duty, drug testing, and related services)",
+    "solicitation": "70B06C26R00000017",
+    "state": "Unknown",
+    "naics": "621399",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "TAILPIECE,UNION",
+    "solicitation": "N0010426QFD43",
+    "state": "Unknown",
+    "naics": "332919",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "B1610 and 2310 Boiler Replacement",
+    "solicitation": "FA489726Q0008",
+    "state": "Unknown",
+    "naics": "238220",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "HOSE ASSEMBLY,NONME",
+    "solicitation": "N0010425QFC71",
+    "state": "Unknown",
+    "naics": "326220",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "Hangar/Aircraft Maintenance Unit at Davis-Monthan Air Force Base, Arizona",
     "solicitation": "W912PL26RA001",
     "state": "Unknown",
@@ -8,74 +40,42 @@
     "score": 10
   },
   {
-    "title": "Request for Whitepapers: AEDC Velocity Alliance - A Multi-Billion Dollar OTA Consortium Opportunity",
-    "solicitation": "FA9101-26-9-Velocity_Alliance",
+    "title": "Precision Strike Missile (PrSM) Increment 4 Prototype Request for Solutions",
+    "solicitation": "W31P4Q269068",
     "state": "Unknown",
-    "naics": "541330",
+    "naics": "336414",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Aircraft Trainer Repair at Columbus AFB",
-    "solicitation": "FA302226Q0005",
+    "title": "PARTS KIT,BALL VALV",
+    "solicitation": "N0010426QFD46",
     "state": "Unknown",
-    "naics": "811310",
+    "naics": "332919",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Maintenance and Repair of Emergency Alarm Systems",
-    "solicitation": "W912CM26QA016",
+    "title": "TRANSFORMER,POWER",
+    "solicitation": "N0010425QFE35",
     "state": "Unknown",
-    "naics": "922160",
+    "naics": "334416",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Radio Frequency Identification",
-    "solicitation": "F3YCAY4122AC03",
+    "title": "HOSE CONNECTION",
+    "solicitation": "N0010425QFC93",
     "state": "Unknown",
-    "naics": "334419",
+    "naics": "336612",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Maintenance Dredging of NY & NJ Channels, Seguine/Ward/Outerbridge Reaches, Federal Navigation Project",
-    "solicitation": "W912DS26BA014",
+    "title": "ADAPTER,STRAIGHT,PI",
+    "solicitation": "N0010426QFB18",
     "state": "Unknown",
-    "naics": "237990",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Y1NZ--659-24-903 | Steam Line Replacement | Salisbury VAMC  Salisbury, North Carolina",
-    "solicitation": "36C24626B0016",
-    "state": "Unknown",
-    "naics": "238220",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Lowell National Historical Park - Security Upgrade",
-    "solicitation": "140P4326R0009",
-    "state": "Unknown",
-    "naics": "238210",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Entrance Bridge Concrete Abutment Repairs, Otter Brook Lake, Keene, NH",
-    "solicitation": "W912WJ26QA080",
-    "state": "Unknown",
-    "naics": "237310",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Z1DA--SATOC IDIQ Construction Contract Base Plus 4: Roseburg",
-    "solicitation": "36C26026R0048",
-    "state": "Unknown",
-    "naics": "236220",
+    "naics": "332919",
     "value": "Unknown",
     "score": 10
   }
