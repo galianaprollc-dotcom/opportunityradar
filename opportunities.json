@@ -1,81 +1,81 @@
 [
   {
-    "title": "ROD,OPERATING",
-    "solicitation": "N0010426QFB53",
+    "title": "59--CIRCUIT BREAKER, IN REPAIR/MODIFICATION OF",
+    "solicitation": "N0010426QYA7N",
     "state": "Unknown",
-    "naics": "332919",
+    "naics": "335313",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "SPRMM1-26-Q-KE52",
-    "solicitation": "SPRMM1-26-Q-KE52",
+    "title": "New SABER (Simplified Acquisition of Base Engineering Requirements)",
+    "solicitation": "FA441826R0004",
+    "state": "Unknown",
+    "naics": "236220",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "81--SHIPPING AND STORAG",
+    "solicitation": "SPRPA126RVB07",
+    "state": "Unknown",
+    "naics": "332439",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "SILICONE COMPOUND",
+    "solicitation": "N0010426QBJ23",
+    "state": "Unknown",
+    "naics": "325998",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "PANEL,POWER DISTRIB",
+    "solicitation": "SPRMM126QGB16",
+    "state": "Unknown",
+    "naics": "335312",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "SCREW,CAP,SOCKET HE",
+    "solicitation": "N0010426QFD39",
+    "state": "Unknown",
+    "naics": "332722",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "CIRCUIT CARD ASSEMB",
+    "solicitation": "SPRMM126QGC80",
     "state": "Unknown",
     "naics": "334412",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Campus Style Dining Venue (CSDV) Concession 2.0 (A) Solicitation",
-    "solicitation": "NAFBA1-26-R-0014",
+    "title": "47--HOSE ASSY",
+    "solicitation": "N0010426QFB46",
     "state": "Unknown",
-    "naics": "722310",
+    "naics": "326220",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "TRANSDUCER,PRESSURE",
-    "solicitation": "N0010426QNA99",
-    "state": "Unknown",
-    "naics": "334515",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "W91QVP26Q0308 KrS26 Aggregate",
-    "solicitation": "W91QVP26Q0308",
-    "state": "Unknown",
-    "naics": "212321",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "ROD,OPERATING",
-    "solicitation": "N0010426QFB56",
-    "state": "Unknown",
-    "naics": "332919",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "CIS Secure TSG Cisco 8851 Fiber VOIPs",
-    "solicitation": "80NSSC26932047Q",
-    "state": "Unknown",
-    "naics": "541512",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "3HD 3040 017330673 D5, SHAFT",
-    "solicitation": "N00104-26-Q-FD63",
+    "title": "SHAFT,STRAIGHT",
+    "solicitation": "N0010426QFC09",
     "state": "Unknown",
     "naics": "333613",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "MODULE,INFOSEC",
-    "solicitation": "N0010426QQB00",
+    "title": "17--FAILSAFE ISO AMP CC, IN REPAIR/MODIFICATION OF",
+    "solicitation": "N0038326QPA01",
     "state": "Unknown",
-    "naics": "334290",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "53--KNOB",
-    "solicitation": "N0038326QQA91",
-    "state": "Unknown",
-    "naics": "332119",
+    "naics": "336413",
     "value": "Unknown",
     "score": 10
   }
