@@ -1,81 +1,81 @@
 [
   {
-    "title": "59--CIRCUIT BREAKER, IN REPAIR/MODIFICATION OF",
-    "solicitation": "N0010426QYA7N",
-    "state": "Unknown",
-    "naics": "335313",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "New SABER (Simplified Acquisition of Base Engineering Requirements)",
-    "solicitation": "FA441826R0004",
-    "state": "Unknown",
-    "naics": "236220",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "81--SHIPPING AND STORAG",
-    "solicitation": "SPRPA126RVB07",
-    "state": "Unknown",
-    "naics": "332439",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "SILICONE COMPOUND",
-    "solicitation": "N0010426QBJ23",
-    "state": "Unknown",
-    "naics": "325998",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "PANEL,POWER DISTRIB",
-    "solicitation": "SPRMM126QGB16",
-    "state": "Unknown",
-    "naics": "335312",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "SCREW,CAP,SOCKET HE",
-    "solicitation": "N0010426QFD39",
-    "state": "Unknown",
-    "naics": "332722",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
     "title": "CIRCUIT CARD ASSEMB",
-    "solicitation": "SPRMM126QGC80",
+    "solicitation": "SPRMM126QKD36",
     "state": "Unknown",
-    "naics": "334412",
+    "naics": "334419",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "47--HOSE ASSY",
-    "solicitation": "N0010426QFB46",
+    "title": "BUSHING,SLEEVE",
+    "solicitation": "N0010426QFC87",
     "state": "Unknown",
-    "naics": "326220",
+    "naics": "332991",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "SHAFT,STRAIGHT",
-    "solicitation": "N0010426QFC09",
+    "title": "Garbage Collection for U.S Embassy and Residences",
+    "solicitation": "19KV4226Q0004",
     "state": "Unknown",
-    "naics": "333613",
+    "naics": "562111",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "17--FAILSAFE ISO AMP CC, IN REPAIR/MODIFICATION OF",
-    "solicitation": "N0038326QPA01",
+    "title": "GAGE PRESSURE",
+    "solicitation": "N0010426QBT22",
     "state": "Unknown",
-    "naics": "336413",
+    "naics": "334513",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "49--TEST SET,GUIDED MIS, IN REPAIR/MODIFICATION OF",
+    "solicitation": "N0010425QDB18",
+    "state": "Unknown",
+    "naics": "332710",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "AMPLIFIER,DIRECT CU",
+    "solicitation": "SPRMM126QGD15",
+    "state": "Unknown",
+    "naics": "335999",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "POWER SUPPLY",
+    "solicitation": "N0010426RSC82",
+    "state": "Unknown",
+    "naics": "335931",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "TEST SET SUBASSEMBL",
+    "solicitation": "SPRMM126QKB86",
+    "state": "Unknown",
+    "naics": "333998",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "31--BEARING, SPR LINK",
+    "solicitation": "N0010426QFB95",
+    "state": "Unknown",
+    "naics": "332991",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "The U.S. Department of Agriculture (USDA) seeks to lease the following space in Mountain City (Johnson Co) TN",
+    "solicitation": "57-47019-23-FA",
+    "state": "Unknown",
+    "naics": "531120",
     "value": "Unknown",
     "score": 10
   }
