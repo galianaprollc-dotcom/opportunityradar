@@ -1,81 +1,81 @@
 [
   {
+    "title": "16--DIGITAL POWER SUPPL",
+    "solicitation": "SPRPA126QZB12",
+    "state": "Unknown",
+    "naics": "336413",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "CIRCUIT CARD ASSEMB",
-    "solicitation": "SPRMM126QKD36",
+    "solicitation": "N0010426QNC47",
     "state": "Unknown",
-    "naics": "334419",
+    "naics": "334412",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "BUSHING,SLEEVE",
-    "solicitation": "N0010426QFC87",
+    "title": "61--GENERATOR,ALTERNATI, IN REPAIR/MODIFICATION OF",
+    "solicitation": "N0038325RH281",
     "state": "Unknown",
-    "naics": "332991",
+    "naics": "335312",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Garbage Collection for U.S Embassy and Residences",
-    "solicitation": "19KV4226Q0004",
+    "title": "47--MANIFOLD,AIR LINE - AND OTHER REPLACEMENT PARTS",
+    "solicitation": "SPRMM126RKA39",
     "state": "Unknown",
-    "naics": "562111",
+    "naics": "332919",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "GAGE PRESSURE",
-    "solicitation": "N0010426QBT22",
+    "title": "Q--OCCUPATIONAL THERAPY SERVICE",
+    "solicitation": "140A2326Q0117",
     "state": "Unknown",
-    "naics": "334513",
+    "naics": "621340",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "49--TEST SET,GUIDED MIS, IN REPAIR/MODIFICATION OF",
-    "solicitation": "N0010425QDB18",
+    "title": "VALVE W/ACTUATOR",
+    "solicitation": "SPRMM126QMF45",
     "state": "Unknown",
-    "naics": "332710",
+    "naics": "332919",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "AMPLIFIER,DIRECT CU",
-    "solicitation": "SPRMM126QGD15",
+    "title": "15--DOOR,AIRCRAFT",
+    "solicitation": "N0038326QQA14",
     "state": "Unknown",
-    "naics": "335999",
+    "naics": "336413",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "POWER SUPPLY",
-    "solicitation": "N0010426RSC82",
+    "title": "ACTUATOR,ELECTRO-ME",
+    "solicitation": "N0010426QXA48",
     "state": "Unknown",
-    "naics": "335931",
+    "naics": "336415",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "TEST SET SUBASSEMBL",
-    "solicitation": "SPRMM126QKB86",
+    "title": "16--ACTUATOR,ELECTROMEC, IN REPAIR/MODIFICATION OF",
+    "solicitation": "N0038325QT556",
+    "state": "Unknown",
+    "naics": "336413",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "49--TEST SET SUBASSEMBL",
+    "solicitation": "N0010425QND07",
     "state": "Unknown",
     "naics": "333998",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "31--BEARING, SPR LINK",
-    "solicitation": "N0010426QFB95",
-    "state": "Unknown",
-    "naics": "332991",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "The U.S. Department of Agriculture (USDA) seeks to lease the following space in Mountain City (Johnson Co) TN",
-    "solicitation": "57-47019-23-FA",
-    "state": "Unknown",
-    "naics": "531120",
     "value": "Unknown",
     "score": 10
   }
