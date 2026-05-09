@@ -1,9 +1,65 @@
 [
   {
+    "title": "SOF Global Services Delivery (SOFGSD)",
+    "solicitation": "H9240026RE001",
+    "state": "Unknown",
+    "naics": "541611",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Motorized Trail Equipment Rental",
+    "solicitation": "12444526Q0036",
+    "state": "Unknown",
+    "naics": "532412",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Y1DA--Renovate 6S for Inpatient Mental Health - 552-20-101",
+    "solicitation": "36C25026B0023_A00002",
+    "state": "Unknown",
+    "naics": "236220",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "2026 Offutt Air Show - Parking Management Services",
+    "solicitation": "FA460026Q0038",
+    "state": "Unknown",
+    "naics": "561990",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "INDUSTRIAL GAS IDIQ",
+    "solicitation": "SPMYM226Q5267",
+    "state": "Unknown",
+    "naics": "325120",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "16--DIGITAL POWER SUPPL",
     "solicitation": "SPRPA126QZB12",
     "state": "Unknown",
     "naics": "336413",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "R--ArcGIS Enterprise Cloud Environment for NA-40",
+    "solicitation": "89233126QNA000434",
+    "state": "Unknown",
+    "naics": "541519",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "5975 BULKHEAD FITTING",
+    "solicitation": "N0040626Q0174",
+    "state": "Unknown",
+    "naics": "335999",
     "value": "Unknown",
     "score": 10
   },
@@ -20,62 +76,6 @@
     "solicitation": "N0038325RH281",
     "state": "Unknown",
     "naics": "335312",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "47--MANIFOLD,AIR LINE - AND OTHER REPLACEMENT PARTS",
-    "solicitation": "SPRMM126RKA39",
-    "state": "Unknown",
-    "naics": "332919",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Q--OCCUPATIONAL THERAPY SERVICE",
-    "solicitation": "140A2326Q0117",
-    "state": "Unknown",
-    "naics": "621340",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "VALVE W/ACTUATOR",
-    "solicitation": "SPRMM126QMF45",
-    "state": "Unknown",
-    "naics": "332919",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "15--DOOR,AIRCRAFT",
-    "solicitation": "N0038326QQA14",
-    "state": "Unknown",
-    "naics": "336413",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "ACTUATOR,ELECTRO-ME",
-    "solicitation": "N0010426QXA48",
-    "state": "Unknown",
-    "naics": "336415",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "16--ACTUATOR,ELECTROMEC, IN REPAIR/MODIFICATION OF",
-    "solicitation": "N0038325QT556",
-    "state": "Unknown",
-    "naics": "336413",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "49--TEST SET SUBASSEMBL",
-    "solicitation": "N0010425QND07",
-    "state": "Unknown",
-    "naics": "333998",
     "value": "Unknown",
     "score": 10
   }
