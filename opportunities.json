@@ -1,5 +1,13 @@
 [
   {
+    "title": "Sam Houston Trail Bridge Replacement",
+    "solicitation": "127EAV26R0009",
+    "state": "Unknown",
+    "naics": "237310",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "SOF Global Services Delivery (SOFGSD)",
     "solicitation": "H9240026RE001",
     "state": "Unknown",
@@ -68,14 +76,6 @@
     "solicitation": "N0010426QNC47",
     "state": "Unknown",
     "naics": "334412",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "61--GENERATOR,ALTERNATI, IN REPAIR/MODIFICATION OF",
-    "solicitation": "N0038325RH281",
-    "state": "Unknown",
-    "naics": "335312",
     "value": "Unknown",
     "score": 10
   }
