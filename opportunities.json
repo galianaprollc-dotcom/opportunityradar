@@ -1,81 +1,81 @@
 [
   {
-    "title": "Dental Air Compressor",
-    "solicitation": "36C25526Q0397",
+    "title": "TUBING,NONMETALLIC",
+    "solicitation": "N0010426QFA67",
     "state": "Unknown",
-    "naics": "339114",
+    "naics": "332919",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "TRANSMITTER,PRESSUR",
-    "solicitation": "N0038325QA350",
+    "title": "PCMU REF DES 12A10,",
+    "solicitation": "SPRPA126QXB33",
     "state": "Unknown",
-    "naics": "334513",
+    "naics": "336413",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "POWER SUPPLY",
-    "solicitation": "SPRMM126QMF68",
+    "title": "CIRCUIT CARD ASSEMB",
+    "solicitation": "SPRMM126QHD13",
+    "state": "Unknown",
+    "naics": "334412",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "WIRING HARNESS",
+    "solicitation": "SPRDL126Q0072",
     "state": "Unknown",
     "naics": "335931",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "TRANSDUCER DIFF PRE",
-    "solicitation": "SPRMM126QKC54",
+    "title": "CIRCUIT CARD ASSEMB",
+    "solicitation": "SPRMM126QMG09",
     "state": "Unknown",
-    "naics": "334515",
+    "naics": "334412",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "BAS Compressor Repair",
-    "solicitation": "75D30126Q78974",
+    "title": "Air conditioning materials and accessories for  replacement",
+    "solicitation": "19TH2026Q0034",
     "state": "Unknown",
-    "naics": "333912",
+    "naics": "333415",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "99--COVER,GUIDERAIL - AND OTHER REPLACEMENT PARTS",
-    "solicitation": "N0038325RC428",
+    "title": "Y1LZ--TIERED SET-ASIDE - Parking Ramp  Expansion Minor Construction - Buffalo VAMC 528-375",
+    "solicitation": "36C77626R0046",
     "state": "Unknown",
-    "naics": "336413",
+    "naics": "236220",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "PRESSURE GAUGE HP",
-    "solicitation": "SPRMM126QKE04",
+    "title": "Mission Support - WMD Threat Reduction Consultation Services",
+    "solicitation": "19AQMM26R168",
+    "state": "Unknown",
+    "naics": "541690",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "EXTINGUISHER,FIRE",
+    "solicitation": "SPRPA126QRC03",
     "state": "Unknown",
     "naics": "333998",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "15--FLAP,WING LANDING - AND OTHER REPLACEMENT PARTS",
-    "solicitation": "N0038326RTB37",
+    "title": "PP-8544A/USR POWER",
+    "solicitation": "N0010426QQB55",
     "state": "Unknown",
-    "naics": "336413",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "SPRING,RIGHT-HAND",
-    "solicitation": "N0010426QFE01",
-    "state": "Unknown",
-    "naics": "332613",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "MK 444 MOD 2 TS",
-    "solicitation": "SPRMM126QKD23",
-    "state": "Unknown",
-    "naics": "333998",
+    "naics": "335931",
     "value": "Unknown",
     "score": 10
   }
