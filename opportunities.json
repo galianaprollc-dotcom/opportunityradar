@@ -1,81 +1,81 @@
 [
   {
-    "title": "TUBING,NONMETALLIC",
-    "solicitation": "N0010426QFA67",
+    "title": "Guardrail Installation, Pease ANGB",
+    "solicitation": "W50S8A26BA008",
+    "state": "Unknown",
+    "naics": "237310",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "CIRCUIT CARD ASSEMB",
+    "solicitation": "SPRMM126QHC91",
+    "state": "Unknown",
+    "naics": "334412",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "GASKET",
+    "solicitation": "N0010426QBL98",
+    "state": "Unknown",
+    "naics": "339991",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "VALVE,LINEAR,DIRECT",
+    "solicitation": "N0010426QNC63",
     "state": "Unknown",
     "naics": "332919",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "PCMU REF DES 12A10,",
-    "solicitation": "SPRPA126QXB33",
+    "title": "Combined Joint Logistics Over-the-Shore exercise (2026)",
+    "solicitation": "W90VN926QA040",
     "state": "Unknown",
-    "naics": "336413",
+    "naics": "561210",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "CIRCUIT CARD ASSEMB",
-    "solicitation": "SPRMM126QHD13",
+    "title": "BASE PLUS 4 UNARMED SECURITY SERVICE FOR MILWAUKEE VAMC AND CBOC LOCATIONS",
+    "solicitation": "36C25226Q0346",
+    "state": "Unknown",
+    "naics": "561612",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "59--SWITCH, W/RETRO KIT",
+    "solicitation": "N0010426QBM17",
+    "state": "Unknown",
+    "naics": "335313",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "AFWFB Repair and Maintenance Services",
+    "solicitation": "140D0426Q0343",
+    "state": "Unknown",
+    "naics": "811310",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "66--FREQUENCY REFERENCE",
+    "solicitation": "N0038326QLA70",
     "state": "Unknown",
     "naics": "334412",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "WIRING HARNESS",
-    "solicitation": "SPRDL126Q0072",
+    "title": "53--RIVET,SOLID",
+    "solicitation": "N0038325QT596",
     "state": "Unknown",
-    "naics": "335931",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "CIRCUIT CARD ASSEMB",
-    "solicitation": "SPRMM126QMG09",
-    "state": "Unknown",
-    "naics": "334412",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Air conditioning materials and accessories for  replacement",
-    "solicitation": "19TH2026Q0034",
-    "state": "Unknown",
-    "naics": "333415",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Y1LZ--TIERED SET-ASIDE - Parking Ramp  Expansion Minor Construction - Buffalo VAMC 528-375",
-    "solicitation": "36C77626R0046",
-    "state": "Unknown",
-    "naics": "236220",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Mission Support - WMD Threat Reduction Consultation Services",
-    "solicitation": "19AQMM26R168",
-    "state": "Unknown",
-    "naics": "541690",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "EXTINGUISHER,FIRE",
-    "solicitation": "SPRPA126QRC03",
-    "state": "Unknown",
-    "naics": "333998",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "PP-8544A/USR POWER",
-    "solicitation": "N0010426QQB55",
-    "state": "Unknown",
-    "naics": "335931",
+    "naics": "332722",
     "value": "Unknown",
     "score": 10
   }
