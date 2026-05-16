@@ -1,9 +1,25 @@
 [
   {
-    "title": "Guardrail Installation, Pease ANGB",
-    "solicitation": "W50S8A26BA008",
+    "title": "Agricultural Cleaning Services at Subic Bay, Philippines",
+    "solicitation": "M0031826QG013",
     "state": "Unknown",
-    "naics": "237310",
+    "naics": "561210",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Tainter Gates Sandblasting",
+    "solicitation": "191BWC26B0001",
+    "state": "Unknown",
+    "naics": "237990",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Aircraft Tire Bead Breaker",
+    "solicitation": "FA813626Q0003",
+    "state": "Unknown",
+    "naics": "336413",
     "value": "Unknown",
     "score": 10
   },
@@ -24,6 +40,14 @@
     "score": 10
   },
   {
+    "title": "Y1PZ--Repair B19 and B20 Sidewalks",
+    "solicitation": "36C26126R0051",
+    "state": "Unknown",
+    "naics": "236220",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "VALVE,LINEAR,DIRECT",
     "solicitation": "N0010426QNC63",
     "state": "Unknown",
@@ -40,42 +64,18 @@
     "score": 10
   },
   {
-    "title": "BASE PLUS 4 UNARMED SECURITY SERVICE FOR MILWAUKEE VAMC AND CBOC LOCATIONS",
-    "solicitation": "36C25226Q0346",
+    "title": "Fire Department Entry Control System",
+    "solicitation": "FA4620QA217",
     "state": "Unknown",
-    "naics": "561612",
+    "naics": "334290",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "59--SWITCH, W/RETRO KIT",
-    "solicitation": "N0010426QBM17",
+    "title": "Mobile Warehouse Manlift",
+    "solicitation": "W50S8Z26QA022",
     "state": "Unknown",
-    "naics": "335313",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "AFWFB Repair and Maintenance Services",
-    "solicitation": "140D0426Q0343",
-    "state": "Unknown",
-    "naics": "811310",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "66--FREQUENCY REFERENCE",
-    "solicitation": "N0038326QLA70",
-    "state": "Unknown",
-    "naics": "334412",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "53--RIVET,SOLID",
-    "solicitation": "N0038325QT596",
-    "state": "Unknown",
-    "naics": "332722",
+    "naics": "333120",
     "value": "Unknown",
     "score": 10
   }
