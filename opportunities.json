@@ -1,9 +1,41 @@
 [
   {
+    "title": "Solicitation notice for Health & Life Insurance for LES, U. S. Mission, Sultanate of Oman",
+    "solicitation": "19MU3026R0002",
+    "state": "Unknown",
+    "naics": "524114",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "Agricultural Cleaning Services at Subic Bay, Philippines",
     "solicitation": "M0031826QG013",
     "state": "Unknown",
     "naics": "561210",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "B403 CYBER Repair",
+    "solicitation": "W50S8R26RA005",
+    "state": "Unknown",
+    "naics": "236220",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "RFQ for a Purge and Trap",
+    "solicitation": "68HE0526Q0007",
+    "state": "Unknown",
+    "naics": "334516",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Procure Agilent helium conservation modules",
+    "solicitation": "68HE0526Q0006",
+    "state": "Unknown",
+    "naics": "334516",
     "value": "Unknown",
     "score": 10
   },
@@ -16,66 +48,34 @@
     "score": 10
   },
   {
+    "title": "36C78626R50055 -- S208",
+    "solicitation": "QSE--36C78626R50055",
+    "state": "Unknown",
+    "naics": "561730",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "GEN III LAYER 5 SOFT SHELL COLD WEATHER JACKET",
+    "solicitation": "SPE1C1-26-R-0090",
+    "state": "Unknown",
+    "naics": "315210",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Z--Replace Roof of Visitor Center/Administration Bldg",
+    "solicitation": "140P6026Q0001",
+    "state": "Unknown",
+    "naics": "238160",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "Aircraft Tire Bead Breaker",
     "solicitation": "FA813626Q0003",
     "state": "Unknown",
     "naics": "336413",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "CIRCUIT CARD ASSEMB",
-    "solicitation": "SPRMM126QHC91",
-    "state": "Unknown",
-    "naics": "334412",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "GASKET",
-    "solicitation": "N0010426QBL98",
-    "state": "Unknown",
-    "naics": "339991",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Y1PZ--Repair B19 and B20 Sidewalks",
-    "solicitation": "36C26126R0051",
-    "state": "Unknown",
-    "naics": "236220",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "VALVE,LINEAR,DIRECT",
-    "solicitation": "N0010426QNC63",
-    "state": "Unknown",
-    "naics": "332919",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Combined Joint Logistics Over-the-Shore exercise (2026)",
-    "solicitation": "W90VN926QA040",
-    "state": "Unknown",
-    "naics": "561210",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Fire Department Entry Control System",
-    "solicitation": "FA4620QA217",
-    "state": "Unknown",
-    "naics": "334290",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Mobile Warehouse Manlift",
-    "solicitation": "W50S8Z26QA022",
-    "state": "Unknown",
-    "naics": "333120",
     "value": "Unknown",
     "score": 10
   }
