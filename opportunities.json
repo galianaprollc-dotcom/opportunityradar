@@ -1,81 +1,81 @@
 [
   {
-    "title": "NOMEN: VALVE,REGULATIN, P/N: 2770073-114",
-    "solicitation": "N00383-26-Q-H064",
+    "title": "Repair of NIIN 014344585 / Nomenclature PANEL,CONTROL, ELECT",
+    "solicitation": "N0038326QA083",
+    "state": "Unknown",
+    "naics": "336413",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "VALVE,SEA,UNDERWATE",
+    "solicitation": "N0010426QUB67",
+    "state": "Unknown",
+    "naics": "334511",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "DE01--EnCaption 4 Closed Captioning SLA (VA-26-00048911)  Avery/Morgan",
+    "solicitation": "36C24C26Q0005",
+    "state": "Unknown",
+    "naics": "541519",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "STEM,FLUID VALVE",
+    "solicitation": "N0010426QBU42",
     "state": "Unknown",
     "naics": "332919",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "USS HIGGINS (DDG-76) FY26 6C1 SRA BUNDLE 2, Yokosuka Japan",
-    "solicitation": "N6264926RA038",
+    "title": "F--Snake River Area Office Weed Control",
+    "solicitation": "140R1726Q0025",
     "state": "Unknown",
-    "naics": "336611",
+    "naics": "561730",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "5520--Behavioral Health Alarmed Door System | St. Louis VA Medical  Center | 08/03/2026 - 11/30/2026",
-    "solicitation": "36C25526Q0194",
+    "title": "CONTROL PANEL",
+    "solicitation": "SPRMM126QGC07",
     "state": "Unknown",
-    "naics": "321911",
+    "naics": "335999",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "MC & NWU APECS Trousers",
-    "solicitation": "SPE1C1-25-R-0103",
+    "title": "TUBE SEAMLESS NICKEL COPPER ALLOY",
+    "solicitation": "N0010426Q19764",
     "state": "Unknown",
-    "naics": "315210",
+    "naics": "331210",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "DSCR South Perimeter Fence Erosion Repair",
-    "solicitation": "SP470326R0004",
+    "title": "NAWCAD WOLF-Intent to Purchase connectors & conduit to repair EMP assemblies",
+    "solicitation": "N0042126Q1148",
     "state": "Unknown",
-    "naics": "238990",
+    "naics": "335932",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "PARTS KIT,BALL VALV",
-    "solicitation": "N0010426QFD87",
+    "title": "TURBOCHARGER,RIGHT",
+    "solicitation": "SPRMM126QKE97",
+    "state": "Unknown",
+    "naics": "336412",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "STEM, FLUID VALVE",
+    "solicitation": "N0010426QZA87",
     "state": "Unknown",
     "naics": "332919",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Purchase of New Passenger Vehicle (station wagon)",
-    "solicitation": "PR16003410",
-    "state": "Unknown",
-    "naics": "336110",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "ADAPTER ASSEMBLY",
-    "solicitation": "N0010426QFE04",
-    "state": "Unknown",
-    "naics": "332919",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "49 - VACCUUM TEST FIXTUR",
-    "solicitation": "SPRMM1-26-Q-KD63",
-    "state": "Unknown",
-    "naics": "334419",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Contract Security Guard (CSG) Services for U.S. Forces Korea (USFK)",
-    "solicitation": "W91QVN26RA023",
-    "state": "Unknown",
-    "naics": "561612",
     "value": "Unknown",
     "score": 10
   }
