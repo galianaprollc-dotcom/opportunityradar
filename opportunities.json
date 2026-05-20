@@ -1,81 +1,81 @@
 [
   {
-    "title": "Repair of NIIN 014344585 / Nomenclature PANEL,CONTROL, ELECT",
-    "solicitation": "N0038326QA083",
+    "title": "Band Assy-Low and Reverse",
+    "solicitation": "SPRDL1-25-R-0257",
     "state": "Unknown",
-    "naics": "336413",
+    "naics": "336340",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "VALVE,SEA,UNDERWATE",
-    "solicitation": "N0010426QUB67",
+    "title": "PUMP UNIT,CENTRIFUG",
+    "solicitation": "SPRMM126QMG16",
     "state": "Unknown",
-    "naics": "334511",
+    "naics": "333914",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "DE01--EnCaption 4 Closed Captioning SLA (VA-26-00048911)  Avery/Morgan",
-    "solicitation": "36C24C26Q0005",
-    "state": "Unknown",
-    "naics": "541519",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "STEM,FLUID VALVE",
-    "solicitation": "N0010426QBU42",
-    "state": "Unknown",
-    "naics": "332919",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "F--Snake River Area Office Weed Control",
-    "solicitation": "140R1726Q0025",
+    "title": "Ground Maintenance Services",
+    "solicitation": "36C25726Q0483",
     "state": "Unknown",
     "naics": "561730",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "CONTROL PANEL",
-    "solicitation": "SPRMM126QGC07",
+    "title": "Armed Forces Career Center - Mount Airy, North Carolina",
+    "solicitation": "W912HN-27-MOUNT_AIRY-NC-7002",
     "state": "Unknown",
-    "naics": "335999",
+    "naics": "5311",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "TUBE SEAMLESS NICKEL COPPER ALLOY",
-    "solicitation": "N0010426Q19764",
+    "title": "Armed Forces Career Center - Columbus, Georgia",
+    "solicitation": "W912HN-27-COLUMBUS-GA-6011",
     "state": "Unknown",
-    "naics": "331210",
+    "naics": "5311",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "NAWCAD WOLF-Intent to Purchase connectors & conduit to repair EMP assemblies",
-    "solicitation": "N0042126Q1148",
+    "title": "POWER SUPPLY",
+    "solicitation": "SPRMM126QKC15",
     "state": "Unknown",
-    "naics": "335932",
+    "naics": "335311",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "TURBOCHARGER,RIGHT",
-    "solicitation": "SPRMM126QKE97",
+    "title": "6515--Bronch Express Simulator (VA-26-00065840)",
+    "solicitation": "36C24726Q0538",
     "state": "Unknown",
-    "naics": "336412",
+    "naics": "339112",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "STEM, FLUID VALVE",
-    "solicitation": "N0010426QZA87",
+    "title": "Armed Forces Career Center - Wilkesboro, North Carolina",
+    "solicitation": "W912HN-27-WILKESBORO-NC-7003",
     "state": "Unknown",
-    "naics": "332919",
+    "naics": "5311",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Armed Forces Career Center - Florence, South Carolina",
+    "solicitation": "W912HN-27-FLORENCE-SC-6012",
+    "state": "Unknown",
+    "naics": "5311",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "MOTOR,ALTERNATING C",
+    "solicitation": "N0010426QLB92",
+    "state": "Unknown",
+    "naics": "335312",
     "value": "Unknown",
     "score": 10
   }
