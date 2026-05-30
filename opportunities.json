@@ -1,5 +1,29 @@
 [
   {
+    "title": "S--Solid Waste Collection Services at SACN",
+    "solicitation": "140P6026Q0040",
+    "state": "Unknown",
+    "naics": "562111",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "VALVE,BALL",
+    "solicitation": "N0010426QFE27",
+    "state": "Unknown",
+    "naics": "332919",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "1377 - 1377-01-692-4231, JP18 - JSF Cartridges as attached.",
+    "solicitation": "N0010426RK004",
+    "state": "Unknown",
+    "naics": "325920",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "Renovate Building 110",
     "solicitation": "W912HN26RA006",
     "state": "Unknown",
@@ -16,10 +40,26 @@
     "score": 10
   },
   {
+    "title": "ACTUATOR,ELECTROME",
+    "solicitation": "SPRTA1-26-Q-0352",
+    "state": "Unknown",
+    "naics": "336413",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "81--SHIPPING AND STORAG",
     "solicitation": "SPRPA126RVB76",
     "state": "Unknown",
     "naics": "332439",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "304th Prepared Meals BPA",
+    "solicitation": "W50S8Y26QA013",
+    "state": "Unknown",
+    "naics": "311991",
     "value": "Unknown",
     "score": 10
   },
@@ -32,50 +72,10 @@
     "score": 10
   },
   {
-    "title": "58--VIEWER,NIGHT VISION, IN REPAIR/MODIFICATION OF",
-    "solicitation": "N0038325RA117",
+    "title": "TEST AND BALANCE of AIR FLOWS FOR VA SIERRA NEVADA HEALTH CARE SYSTEM",
+    "solicitation": "36C26126Q0725",
     "state": "Unknown",
-    "naics": "334511",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Service Gate #1 Wire Rope and Lower Sheave Block Replacement, Franklin Falls Dam, Franklin, NH",
-    "solicitation": "W912WJ26QA106",
-    "state": "Unknown",
-    "naics": "238290",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "81--SHIPPING AND STORAG",
-    "solicitation": "SPRPA126RVB77",
-    "state": "Unknown",
-    "naics": "332439",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "VISN 21 Defibrillator Replacement",
-    "solicitation": "36C26126Q0651",
-    "state": "Unknown",
-    "naics": "334510",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "ACTUATOR ASSEMBLY",
-    "solicitation": "SPRPA126QRB75",
-    "state": "Unknown",
-    "naics": "336413",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "19SG2026Q0009_ U.S. Embassy Senegal _ Solicitation for cellphone services",
-    "solicitation": "19SG2026Q0009",
-    "state": "Unknown",
-    "naics": "517112",
+    "naics": "238220",
     "value": "Unknown",
     "score": 10
   }
