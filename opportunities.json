@@ -1,5 +1,45 @@
 [
   {
+    "title": "San Luis Obispo (SBP) ATCT Roof Replacement",
+    "solicitation": "00SBP",
+    "state": "Unknown",
+    "naics": "238160",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Z2NE--544-22-115 Replace Water and Fire Piping Loop",
+    "solicitation": "36C24726R0074",
+    "state": "Unknown",
+    "naics": "237110",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Construct Main Gate Canopy",
+    "solicitation": "W50S8D26QA011",
+    "state": "Unknown",
+    "naics": "236220",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Southeast Regional Maintenance Center (SERMC) - Combat Systems Services",
+    "solicitation": "N4002725R3000",
+    "state": "Unknown",
+    "naics": "541330",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Super-Silent 56kW Generator Rental & Installation",
+    "solicitation": "140P6026Q0050",
+    "state": "Unknown",
+    "naics": "532490",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "S--Solid Waste Collection Services at SACN",
     "solicitation": "140P6026Q0040",
     "state": "Unknown",
@@ -36,46 +76,6 @@
     "solicitation": "SPRPA126RYB36",
     "state": "Unknown",
     "naics": "336413",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "ACTUATOR,ELECTROME",
-    "solicitation": "SPRTA1-26-Q-0352",
-    "state": "Unknown",
-    "naics": "336413",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "81--SHIPPING AND STORAG",
-    "solicitation": "SPRPA126RVB76",
-    "state": "Unknown",
-    "naics": "332439",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "304th Prepared Meals BPA",
-    "solicitation": "W50S8Y26QA013",
-    "state": "Unknown",
-    "naics": "311991",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "PIN,QUICK RELEASE",
-    "solicitation": "N0038326QQB16",
-    "state": "Unknown",
-    "naics": "332618",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "TEST AND BALANCE of AIR FLOWS FOR VA SIERRA NEVADA HEALTH CARE SYSTEM",
-    "solicitation": "36C26126Q0725",
-    "state": "Unknown",
-    "naics": "238220",
     "value": "Unknown",
     "score": 10
   }
