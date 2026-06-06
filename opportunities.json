@@ -8,6 +8,22 @@
     "score": 10
   },
   {
+    "title": "AOF DOMESTIC HOT WATER REPLACE NACE USPP ",
+    "solicitation": "140P3026Q0011",
+    "state": "Unknown",
+    "naics": "238220",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "BATTERY ASSEMBLY",
+    "solicitation": "N0010426QUB83",
+    "state": "Unknown",
+    "naics": "335910",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
     "title": "Mission Australia After-Hours Answering Service",
     "solicitation": "19AS2026Q0016",
     "state": "Unknown",
@@ -16,34 +32,26 @@
     "score": 10
   },
   {
-    "title": "Generator, Engine Accessory",
-    "solicitation": "SPRDL1-26-R-0009",
-    "state": "Unknown",
-    "naics": "336320",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "R602--LAB Courier Service",
-    "solicitation": "36C24626Q0536",
-    "state": "Unknown",
-    "naics": "492110",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "FENCING AND MATERIALS",
-    "solicitation": "140A0326Q0006",
-    "state": "Unknown",
-    "naics": "332618",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Facility Preventative and General Maintenance Services IDIQ",
-    "solicitation": "75N98026R00093",
+    "title": "DC01--Uninterruptible Power Supply (UPS) Battery and  Cooling Units Maintenance Services    VBA Reno Regional Office",
+    "solicitation": "36C10D26Q0119",
     "state": "Unknown",
     "naics": "561210",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "BRAND NAME OR EQUAL TO METRO LIFELINE EMERGENCY RESPONSE CRASH CART",
+    "solicitation": "36C256260827",
+    "state": "Unknown",
+    "naics": "339113",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Contract Security Services",
+    "solicitation": "36C26226Q0469_1",
+    "state": "Unknown",
+    "naics": "561612",
     "value": "Unknown",
     "score": 10
   },
@@ -56,26 +64,18 @@
     "score": 10
   },
   {
-    "title": "FY26 - FY31 Vance AFB Fire Extinguisher BPA",
-    "solicitation": "FA302926Q0002",
+    "title": "CONNECTING LINK",
+    "solicitation": "FA822626Q0529",
     "state": "Unknown",
-    "naics": "811310",
+    "naics": "336412",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "MSGR Chiller Preventive Maintenance Service",
-    "solicitation": "19WZ6026Q0007",
+    "title": "R602--LAB Courier Service",
+    "solicitation": "36C24626Q0536",
     "state": "Unknown",
-    "naics": "333415",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "CONSTRUCTION OF DORMITORY AT JOINT BASE LANGLEY-EUSTIS, HAMPTON, VA",
-    "solicitation": "W9123626RA006",
-    "state": "Unknown",
-    "naics": "236220",
+    "naics": "492110",
     "value": "Unknown",
     "score": 10
   }
