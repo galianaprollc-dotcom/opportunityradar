@@ -1,81 +1,81 @@
 [
   {
-    "title": "Y1EZ--Correct FCA Deficiencies Construction -Amendment",
-    "solicitation": "36C77026R0006",
+    "title": "MODULE ASSEMBLY,RIM",
+    "solicitation": "N0010426QUB43",
+    "state": "Unknown",
+    "naics": "334412",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "BLACK HILLS HCS GENERATOR TESTING, REPAIR, AND MAINTENANCE SERVICES - UNRESTRICTED",
+    "solicitation": "36C26326Q0767",
+    "state": "Unknown",
+    "naics": "811210",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "J059-- New Base 4 Dormakaba Lock PM and  Repair MILWAUKEE VAMC",
+    "solicitation": "36C25226Q0480",
+    "state": "Unknown",
+    "naics": "561622",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Printed Circuit Boards for the Radar Operations Center in Norman, OK",
+    "solicitation": "142082-26-0410",
+    "state": "Unknown",
+    "naics": "334418",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "SWITCH,LIQUID LEVEL",
+    "solicitation": "SPRPA126QWB32",
+    "state": "Unknown",
+    "naics": "336412",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "USNS AMELIA EARHART (T-AKE 3) Regular Overhaul (ROH)",
+    "solicitation": "N6264926RL008",
+    "state": "Unknown",
+    "naics": "336611",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "4110--GNV MICU ICE MAKERS    36C24826Q0789",
+    "solicitation": "36C24826Q0789",
+    "state": "Unknown",
+    "naics": "333415",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "U.S. Armed Forces Recruiting Office - Chesapeake, VA",
+    "solicitation": "DACA655260000800",
+    "state": "Unknown",
+    "naics": "53",
+    "value": "Unknown",
+    "score": 10
+  },
+  {
+    "title": "Y1BG--EHRM Infrastructure Upgrades Construction -  Syracuse - Project 528A7-22-700",
+    "solicitation": "36C77626B0009",
     "state": "Unknown",
     "naics": "236220",
     "value": "Unknown",
     "score": 10
   },
   {
-    "title": "Refinish Basketball Courts for Building 7709, Ellsworth AFB, SD",
-    "solicitation": "FA469026Q0024",
+    "title": "Z--Trail Replacement",
+    "solicitation": "140P6426B0002",
     "state": "Unknown",
-    "naics": "238330",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "60--CV CBLE AY FUSE LCP",
-    "solicitation": "N0010426QBM55",
-    "state": "Unknown",
-    "naics": "334417",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "FUSE, 1.5 AMP",
-    "solicitation": "N0010426QAC32",
-    "state": "Unknown",
-    "naics": "335931",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "GENERATOR,AUXILIARY",
-    "solicitation": "N0010426QLC00",
-    "state": "Unknown",
-    "naics": "335312",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "MODULE - CONTINUITY",
-    "solicitation": "N0010426QAB67",
-    "state": "Unknown",
-    "naics": "333998",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Polaris GWAC Service-Disabled Veteran-Owned Small Business Pool",
-    "solicitation": "47QTCB22R0007",
-    "state": "Unknown",
-    "naics": "541512",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Spacecraft Processing and Operations Contract (SPOC) On-Ramp",
-    "solicitation": "80KSC022R0020_RevA",
-    "state": "Unknown",
-    "naics": "336419",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "REPAIR MODULE,STRAI",
-    "solicitation": "N0010426QJB52",
-    "state": "Unknown",
-    "naics": "332919",
-    "value": "Unknown",
-    "score": 10
-  },
-  {
-    "title": "Universal Software Radio Peripheral (USRP)",
-    "solicitation": "FA875126Q0950",
-    "state": "Unknown",
-    "naics": "334220",
+    "naics": "237990",
     "value": "Unknown",
     "score": 10
   }
